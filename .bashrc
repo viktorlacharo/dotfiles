@@ -15,6 +15,16 @@ fastfetch -l none
 # Make an alias for invoking commands you use constantly
 # alias p='python'
 alias vim='nvim'
+# eza aliases
+alias ls='eza --icons --group-directories-first'
+alias ll='eza -l --icons --group-directories-first'
+alias la='eza -la --icons --group-directories-first'
+alias lt='eza --tree --level=2 --icons --group-directories-first'
+alias l.='eza -a --icons --group-directories-first | grep -E "^\."'
+# bat aliases
+alias cat='bat --style=auto --wrap=never'
+alias catn='bat --style=plain --wrap=never'
+alias less='bat'
 # Lanzar RDP de la oficina en segundo plano
 alias rdp-ofi='nohup remmina -c ~/.local/share/remmina/*.remmina >/dev/null 2>&1 & disown'
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles.git/ --work-tree=$HOME'

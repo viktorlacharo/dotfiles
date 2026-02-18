@@ -1,12 +1,9 @@
 return {
+  { "tahayvr/matteblack.nvim", lazy = false, priority = 1000 },
   {
-    "bjarneo/ethereal.nvim",
-    priority = 1000,
-  },
-  {
-    "LazyVim/LazyVim",
-    opts = {
-      colorscheme = "ethereal",
-    },
-  },
+		"LazyVim/LazyVim",
+		opts = {
+			colorscheme = "matteblack",
+		},
+	},
 }
