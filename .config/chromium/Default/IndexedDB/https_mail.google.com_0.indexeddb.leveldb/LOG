@@ -1,0 +1,6 @@
+2026/02/17-17:44:13.615 7d5 Reusing MANIFEST /home/viktorlacharo/.config/chromium/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/02/17-17:44:13.615 7d5 Recovering log #3
+2026/02/17-17:44:13.615 7d5 Reusing old log /home/viktorlacharo/.config/chromium/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000003.log 
+2026/02/17-17:44:29.052 7d7 Level-0 table #5: started
+2026/02/17-17:44:29.071 7d7 Level-0 table #5: 3158148 bytes OK
+2026/02/17-17:44:29.077 7d7 Delete type=0 #3

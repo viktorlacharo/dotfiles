@@ -1,0 +1,48 @@
+2026/02/18-08:13:06.342 5 Reusing MANIFEST /home/viktorlacharo/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
+2026/02/18-08:13:06.346 5 Recovering log #26
+2026/02/18-08:13:06.347 5 Reusing old log /home/viktorlacharo/.config/chromium/Default/Local Storage/leveldb/000026.log 
+2026/02/18-08:13:47.732 7 Level-0 table #31: started
+2026/02/18-08:13:47.742 7 Level-0 table #31: 37749 bytes OK
+2026/02/18-08:13:47.747 7 Delete type=0 #26
+2026/02/18-10:12:41.850 7 Level-0 table #33: started
+2026/02/18-10:12:41.860 7 Level-0 table #33: 14308 bytes OK
+2026/02/18-10:12:41.866 7 Delete type=0 #30
+2026/02/18-12:13:41.850 7 Level-0 table #35: started
+2026/02/18-12:13:41.854 7 Level-0 table #35: 14075 bytes OK
+2026/02/18-12:13:41.860 7 Delete type=0 #32
+2026/02/18-13:26:41.208 7 Level-0 table #37: started
+2026/02/18-13:26:41.212 7 Level-0 table #37: 27036 bytes OK
+2026/02/18-13:26:41.218 7 Delete type=0 #34
+2026/02/18-13:26:41.219 7 Compacting 4@0 + 1@1 files
+2026/02/18-13:26:41.229 7 Generated table #38@0: 322 keys, 656798 bytes
+2026/02/18-13:26:41.229 7 Compacted 4@0 + 1@1 files => 656798 bytes
+2026/02/18-13:26:41.234 7 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/02/18-13:26:41.235 7 Delete type=2 #28
+2026/02/18-13:26:41.235 7 Delete type=2 #31
+2026/02/18-13:26:41.235 7 Delete type=2 #33
+2026/02/18-13:26:41.235 7 Delete type=2 #35
+2026/02/18-13:26:41.235 7 Delete type=2 #37
+2026/02/18-13:28:21.520 7 Level-0 table #40: started
+2026/02/18-13:28:21.523 7 Level-0 table #40: 42676 bytes OK
+2026/02/18-13:28:21.529 7 Delete type=0 #36
+2026/02/18-13:31:02.970 7 Level-0 table #42: started
+2026/02/18-13:31:02.980 7 Level-0 table #42: 19378 bytes OK
+2026/02/18-13:31:02.985 7 Delete type=0 #39
+2026/02/18-14:09:41.850 7 Level-0 table #44: started
+2026/02/18-14:09:41.867 7 Level-0 table #44: 22650 bytes OK
+2026/02/18-14:09:41.886 7 Delete type=0 #41
+2026/02/18-16:33:39.376 7 Level-0 table #46: started
+2026/02/18-16:33:39.386 7 Level-0 table #46: 20522 bytes OK
+2026/02/18-16:33:39.392 7 Delete type=0 #43
+2026/02/18-16:33:39.392 7 Compacting 4@0 + 1@1 files
+2026/02/18-16:33:39.403 7 Generated table #47@0: 398 keys, 712473 bytes
+2026/02/18-16:33:39.403 7 Compacted 4@0 + 1@1 files => 712473 bytes
+2026/02/18-16:33:39.408 7 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/02/18-16:33:39.408 7 Delete type=2 #38
+2026/02/18-16:33:39.408 7 Delete type=2 #40
+2026/02/18-16:33:39.408 7 Delete type=2 #42
+2026/02/18-16:33:39.408 7 Delete type=2 #44
+2026/02/18-16:33:39.408 7 Delete type=2 #46
+2026/02/18-16:41:26.287 7 Level-0 table #49: started
+2026/02/18-16:41:26.291 7 Level-0 table #49: 30136 bytes OK
+2026/02/18-16:41:26.296 7 Delete type=0 #45

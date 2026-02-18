@@ -1,0 +1,7 @@
+2026/02/18-13:27:48.734 193f Reusing MANIFEST /home/viktorlacharo/.config/chromium/Default/IndexedDB/https_chatgpt.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/02/18-13:27:48.734 193f Recovering log #3
+2026/02/18-13:27:48.734 193f Reusing old log /home/viktorlacharo/.config/chromium/Default/IndexedDB/https_chatgpt.com_0.indexeddb.leveldb/000003.log 
+2026/02/18-16:33:31.441 1941 Level-0 table #5: started
+2026/02/18-16:33:31.444 1941 Level-0 table #5: 17617 bytes OK
+2026/02/18-16:33:31.449 1941 Delete type=0 #3
+2026/02/18-16:33:31.449 1941 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
