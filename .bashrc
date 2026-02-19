@@ -35,7 +35,8 @@ alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles.git/ --work-tree=$HOME'
 export PATH="$PATH:/home/viktorlacharo/.lmstudio/bin"
 # End of LM Studio CLI section
 
-
+# Added by bob-nvim (Neovim version manager)
+export PATH="$HOME/.local/share/bob/nvim-bin:$HOME/.cargo/bin:$PATH"
 
 # Control de VPN ACCON por CLI
 vpn-accon() {
