@@ -1,0 +1,12 @@
+# ble.sh configuration
+
+# Enable vi editing mode
+bleopt default_keymap=vi
+
+# Show vi mode indicator in the prompt area
+bleopt keymap_vi_mode_show=1
+
+# Optional: cursor shape changes per mode
+# Insert mode: beam cursor, Normal mode: block cursor
+bleopt keymap_vi_mode_string_nmap=$'\e[1 q'   # block
+bleopt keymap_vi_mode_string_imap=$'\e[5 q'   # beam
