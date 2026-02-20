@@ -1,0 +1,4 @@
+heroic-games-launcher-bin
+notion-app-electron
+parsec-bin
+xpadneo-dkms
