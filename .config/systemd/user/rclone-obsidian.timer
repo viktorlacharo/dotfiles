@@ -1,0 +1,10 @@
+[Unit]
+Description=Sync Obsidian vault with Google Drive every 2 minutes
+
+[Timer]
+OnBootSec=2min
+OnUnitActiveSec=2min
+Unit=rclone-obsidian.service
+
+[Install]
+WantedBy=timers.target
