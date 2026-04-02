@@ -1,0 +1,933 @@
+[2026-03-11 18:40:05.350]: Info: Sunshine version: 2025.924.154138 commit: 86188d47a7463b0f73b35de18a628353adeaa20e
+[2026-03-11 18:40:05.350]: Info: Package Publisher: LizardByte
+[2026-03-11 18:40:05.350]: Info: Publisher Website: https://app.lizardbyte.dev
+[2026-03-11 18:40:05.350]: Info: Get support: https://app.lizardbyte.dev/support
+[2026-03-11 18:40:05.351]: Info: Found display [wayland-1]
+[2026-03-11 18:40:05.351]: Info: Found interface: zxdg_output_manager_v1(9) version 3
+[2026-03-11 18:40:05.351]: Info: Found interface: zwlr_screencopy_manager_v1(56) version 3
+[2026-03-11 18:40:05.351]: Info: Found interface: zwp_linux_dmabuf_v1(65) version 5
+[2026-03-11 18:40:05.351]: Info: Found interface: wl_output(68) version 4
+[2026-03-11 18:40:05.351]: Info: Resolution: 1920x1080
+[2026-03-11 18:40:05.351]: Info: Name: DP-1
+[2026-03-11 18:40:05.351]: Info: Found monitor: Acer Technologies ED242QR A TBDEE0043900 (DP-1)
+[2026-03-11 18:40:05.351]: Info: Offset: 0x0
+[2026-03-11 18:40:05.351]: Info: Logical size: 1920x1080
+[2026-03-11 18:40:05.351]: Info: -------- Start of Wayland monitor list --------
+[2026-03-11 18:40:05.351]: Info: Monitor 0 is DP-1: Acer Technologies ED242QR A TBDEE0043900 (DP-1)
+[2026-03-11 18:40:05.351]: Info: --------- End of Wayland monitor list ---------
+[2026-03-11 18:40:05.382]: Info: // Testing for available encoders, this may generate errors. You can safely ignore those errors. //
+[2026-03-11 18:40:05.382]: Info: Trying encoder [nvenc]
+[2026-03-11 18:40:05.382]: Info: Screencasting with Wayland's protocol
+[2026-03-11 18:40:05.382]: Info: Found display [wayland-1]
+[2026-03-11 18:40:05.382]: Info: Found interface: zxdg_output_manager_v1(9) version 3
+[2026-03-11 18:40:05.382]: Info: Found interface: zwlr_screencopy_manager_v1(56) version 3
+[2026-03-11 18:40:05.382]: Info: Found interface: zwp_linux_dmabuf_v1(65) version 5
+[2026-03-11 18:40:05.382]: Info: Found interface: wl_output(68) version 4
+[2026-03-11 18:40:05.382]: Info: Resolution: 1920x1080
+[2026-03-11 18:40:05.382]: Info: Name: DP-1
+[2026-03-11 18:40:05.382]: Info: Found monitor: Acer Technologies ED242QR A TBDEE0043900 (DP-1)
+[2026-03-11 18:40:05.382]: Info: Offset: 0x0
+[2026-03-11 18:40:05.382]: Info: Logical size: 1920x1080
+[2026-03-11 18:40:05.382]: Info: Selected monitor [Acer Technologies ED242QR A TBDEE0043900 (DP-1)] for streaming
+[2026-03-11 18:40:05.382]: Info: Creating encoder [h264_nvenc]
+[2026-03-11 18:40:05.382]: Info: Color coding: SDR (Rec. 601)
+[2026-03-11 18:40:05.382]: Info: Color depth: 8-bit
+[2026-03-11 18:40:05.382]: Info: Color range: JPEG
+[2026-03-11 18:40:05.480]: Info: Streaming bitrate is 1000000
+[2026-03-11 18:40:05.506]: Error: Couldn't scale frame: Invalid argument
+[2026-03-11 18:40:05.564]: Info: Creating encoder [h264_nvenc]
+[2026-03-11 18:40:05.564]: Info: Color coding: SDR (Rec. 601)
+[2026-03-11 18:40:05.564]: Info: Color depth: 8-bit
+[2026-03-11 18:40:05.564]: Info: Color range: JPEG
+[2026-03-11 18:40:05.636]: Info: Streaming bitrate is 1000000
+[2026-03-11 18:40:05.657]: Error: Couldn't scale frame: Invalid argument
+[2026-03-11 18:40:05.717]: Info: Encoder [nvenc] failed
+[2026-03-11 18:40:05.717]: Info: Trying encoder [vaapi]
+[2026-03-11 18:40:05.717]: Info: Screencasting with Wayland's protocol
+[2026-03-11 18:40:05.717]: Info: Found display [wayland-1]
+[2026-03-11 18:40:05.717]: Info: Found interface: zxdg_output_manager_v1(9) version 3
+[2026-03-11 18:40:05.717]: Info: Found interface: zwlr_screencopy_manager_v1(56) version 3
+[2026-03-11 18:40:05.717]: Info: Found interface: zwp_linux_dmabuf_v1(65) version 5
+[2026-03-11 18:40:05.717]: Info: Found interface: wl_output(68) version 4
+[2026-03-11 18:40:05.717]: Info: Resolution: 1920x1080
+[2026-03-11 18:40:05.717]: Info: Name: DP-1
+[2026-03-11 18:40:05.717]: Info: Found monitor: Acer Technologies ED242QR A TBDEE0043900 (DP-1)
+[2026-03-11 18:40:05.717]: Info: Offset: 0x0
+[2026-03-11 18:40:05.717]: Info: Logical size: 1920x1080
+[2026-03-11 18:40:05.717]: Info: Selected monitor [Acer Technologies ED242QR A TBDEE0043900 (DP-1)] for streaming
+[2026-03-11 18:40:05.717]: Info: Creating encoder [h264_vaapi]
+[2026-03-11 18:40:05.717]: Info: Color coding: SDR (Rec. 601)
+[2026-03-11 18:40:05.717]: Info: Color depth: 8-bit
+[2026-03-11 18:40:05.717]: Info: Color range: JPEG
+[2026-03-11 18:40:05.917]: Info: vaapi vendor: VA-API NVDEC driver [direct backend]
+[2026-03-11 18:40:05.917]: Info: Streaming bitrate is 1000000
+[2026-03-11 18:40:05.917]: Error: [h264_vaapi @ 0x55a7cfb292c0] No usable encoding entrypoint found for profile VAProfileH264High (7).
+[2026-03-11 18:40:05.964]: Error: Could not open codec [h264_vaapi]: Function not implemented
+[2026-03-11 18:40:05.965]: Info: Creating encoder [h264_vaapi]
+[2026-03-11 18:40:05.965]: Info: Color coding: SDR (Rec. 601)
+[2026-03-11 18:40:05.965]: Info: Color depth: 8-bit
+[2026-03-11 18:40:05.965]: Info: Color range: JPEG
+[2026-03-11 18:40:06.129]: Info: vaapi vendor: VA-API NVDEC driver [direct backend]
+[2026-03-11 18:40:06.129]: Info: Streaming bitrate is 1000000
+[2026-03-11 18:40:06.129]: Error: [h264_vaapi @ 0x55a7cfb292c0] No usable encoding entrypoint found for profile VAProfileH264High (7).
+[2026-03-11 18:40:06.174]: Error: Could not open codec [h264_vaapi]: Function not implemented
+[2026-03-11 18:40:06.175]: Info: Encoder [vaapi] failed
+[2026-03-11 18:40:06.175]: Info: Trying encoder [software]
+[2026-03-11 18:40:06.175]: Info: Screencasting with Wayland's protocol
+[2026-03-11 18:40:06.175]: Info: Found display [wayland-1]
+[2026-03-11 18:40:06.175]: Info: Found interface: zxdg_output_manager_v1(9) version 3
+[2026-03-11 18:40:06.175]: Info: Found interface: zwlr_screencopy_manager_v1(56) version 3
+[2026-03-11 18:40:06.175]: Info: Found interface: zwp_linux_dmabuf_v1(65) version 5
+[2026-03-11 18:40:06.175]: Info: Found interface: wl_output(68) version 4
+[2026-03-11 18:40:06.175]: Info: Resolution: 1920x1080
+[2026-03-11 18:40:06.175]: Info: Name: DP-1
+[2026-03-11 18:40:06.175]: Info: Found monitor: Acer Technologies ED242QR A TBDEE0043900 (DP-1)
+[2026-03-11 18:40:06.175]: Info: Offset: 0x0
+[2026-03-11 18:40:06.175]: Info: Logical size: 1920x1080
+[2026-03-11 18:40:06.175]: Info: Selected monitor [Acer Technologies ED242QR A TBDEE0043900 (DP-1)] for streaming
+[2026-03-11 18:40:06.178]: Info: Creating encoder [libx264]
+[2026-03-11 18:40:06.178]: Info: Color coding: SDR (Rec. 601)
+[2026-03-11 18:40:06.178]: Info: Color depth: 8-bit
+[2026-03-11 18:40:06.178]: Info: Color range: JPEG
+[2026-03-11 18:40:06.178]: Info: Streaming bitrate is 1000000
+[2026-03-11 18:40:06.186]: Info: [libx264 @ 0x55a7cfb292c0] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+[2026-03-11 18:40:06.187]: Info: [libx264 @ 0x55a7cfb292c0] profile High, level 4.2, 4:2:0, 8-bit
+[2026-03-11 18:40:06.197]: Info: [libx264 @ 0x55a7cfb292c0] frame I:1     Avg QP:31.00  size:  1203
+[2026-03-11 18:40:06.198]: Info: [libx264 @ 0x55a7cfb292c0] mb I  I16..4: 99.9%  0.0%  0.0%
+[2026-03-11 18:40:06.198]: Info: [libx264 @ 0x55a7cfb292c0] 8x8 transform intra:0.0%
+[2026-03-11 18:40:06.198]: Info: [libx264 @ 0x55a7cfb292c0] coded y,uvDC,uvAC intra: 0.0% 0.0% 0.0%
+[2026-03-11 18:40:06.198]: Info: [libx264 @ 0x55a7cfb292c0] i16 v,h,dc,p: 97%  0%  3%  0%
+[2026-03-11 18:40:06.198]: Info: [libx264 @ 0x55a7cfb292c0] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu:  0%  0% 75% 12%  0%  0%  0%  0% 12%
+[2026-03-11 18:40:06.198]: Info: [libx264 @ 0x55a7cfb292c0] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu:  0%  0% 100%  0%  0%  0%  0%  0%  0%
+[2026-03-11 18:40:06.198]: Info: [libx264 @ 0x55a7cfb292c0] i8c dc,h,v,p: 100%  0%  0%  0%
+[2026-03-11 18:40:06.198]: Info: [libx264 @ 0x55a7cfb292c0] kb/s:577.44
+[2026-03-11 18:40:06.198]: Info: Creating encoder [libx264]
+[2026-03-11 18:40:06.198]: Info: Color coding: SDR (Rec. 601)
+[2026-03-11 18:40:06.198]: Info: Color depth: 8-bit
+[2026-03-11 18:40:06.198]: Info: Color range: JPEG
+[2026-03-11 18:40:06.198]: Info: Streaming bitrate is 1000000
+[2026-03-11 18:40:06.198]: Info: [libx264 @ 0x55a7cfb292c0] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+[2026-03-11 18:40:06.199]: Info: [libx264 @ 0x55a7cfb292c0] profile High 4:4:4 Predictive, level 4.2, 4:4:4, 8-bit
+[2026-03-11 18:40:06.213]: Info: [libx264 @ 0x55a7cfb292c0] frame I:1     Avg QP:31.00  size:  1300
+[2026-03-11 18:40:06.213]: Info: [libx264 @ 0x55a7cfb292c0] mb I  I16..4: 100.0%  0.0%  0.0%
+[2026-03-11 18:40:06.213]: Info: [libx264 @ 0x55a7cfb292c0] 8x8 transform intra:0.0%
+[2026-03-11 18:40:06.213]: Info: [libx264 @ 0x55a7cfb292c0] coded y,u,v intra: 0.0% 0.0% 0.0%
+[2026-03-11 18:40:06.213]: Info: [libx264 @ 0x55a7cfb292c0] i16 v,h,dc,p: 97%  0%  3%  0%
+[2026-03-11 18:40:06.213]: Info: [libx264 @ 0x55a7cfb292c0] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu:  0%  0% 75% 12%  0%  0%  0%  0% 12%
+[2026-03-11 18:40:06.213]: Info: [libx264 @ 0x55a7cfb292c0] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu:  0%  0% 100%  0%  0%  0%  0%  0%  0%
+[2026-03-11 18:40:06.213]: Info: [libx264 @ 0x55a7cfb292c0] kb/s:624.00
+[2026-03-11 18:40:06.214]: Info: Screencasting with Wayland's protocol
+[2026-03-11 18:40:06.214]: Info: Found display [wayland-1]
+[2026-03-11 18:40:06.214]: Info: Found interface: zxdg_output_manager_v1(9) version 3
+[2026-03-11 18:40:06.214]: Info: Found interface: zwlr_screencopy_manager_v1(56) version 3
+[2026-03-11 18:40:06.214]: Info: Found interface: zwp_linux_dmabuf_v1(65) version 5
+[2026-03-11 18:40:06.214]: Info: Found interface: wl_output(68) version 4
+[2026-03-11 18:40:06.214]: Info: Resolution: 1920x1080
+[2026-03-11 18:40:06.214]: Info: Name: DP-1
+[2026-03-11 18:40:06.214]: Info: Found monitor: Acer Technologies ED242QR A TBDEE0043900 (DP-1)
+[2026-03-11 18:40:06.214]: Info: Offset: 0x0
+[2026-03-11 18:40:06.214]: Info: Logical size: 1920x1080
+[2026-03-11 18:40:06.214]: Info: Selected monitor [Acer Technologies ED242QR A TBDEE0043900 (DP-1)] for streaming
+[2026-03-11 18:40:06.216]: Info: 
+[2026-03-11 18:40:06.216]: Info: // Ignore any errors mentioned above, they are not relevant. //
+[2026-03-11 18:40:06.216]: Info: 
+[2026-03-11 18:40:06.216]: Info: Found H.264 encoder: libx264 [software]
+[2026-03-11 18:40:06.217]: Info: Starting system tray
+[2026-03-11 18:40:06.218]: Info: Adding avahi service omarchy
+[2026-03-11 18:40:06.218]: Info: Configuration UI available at [https://localhost:47990]
+[2026-03-11 18:40:06.236]: Info: System tray created
+[2026-03-11 18:40:06.236]: Info: Starting main loop
+[2026-03-11 18:40:06.992]: Info: Avahi service omarchy successfully established.
+[2026-03-11 18:40:07.373]: Info: Web UI: [127.0.0.1] -- not authorized
+[2026-03-11 18:43:40.567]: Info: // Testing for available encoders, this may generate errors. You can safely ignore those errors. //
+[2026-03-11 18:43:40.567]: Info: Trying encoder [nvenc]
+[2026-03-11 18:43:40.567]: Info: Screencasting with Wayland's protocol
+[2026-03-11 18:43:40.567]: Info: Found display [wayland-1]
+[2026-03-11 18:43:40.567]: Info: Found interface: zxdg_output_manager_v1(9) version 3
+[2026-03-11 18:43:40.567]: Info: Found interface: zwlr_screencopy_manager_v1(56) version 3
+[2026-03-11 18:43:40.567]: Info: Found interface: zwp_linux_dmabuf_v1(65) version 5
+[2026-03-11 18:43:40.567]: Info: Found interface: wl_output(68) version 4
+[2026-03-11 18:43:40.567]: Info: Resolution: 1920x1080
+[2026-03-11 18:43:40.567]: Info: Name: DP-1
+[2026-03-11 18:43:40.567]: Info: Found monitor: Acer Technologies ED242QR A TBDEE0043900 (DP-1)
+[2026-03-11 18:43:40.567]: Info: Offset: 0x0
+[2026-03-11 18:43:40.567]: Info: Logical size: 1920x1080
+[2026-03-11 18:43:40.567]: Info: Selected monitor [Acer Technologies ED242QR A TBDEE0043900 (DP-1)] for streaming
+[2026-03-11 18:43:40.567]: Info: Creating encoder [h264_nvenc]
+[2026-03-11 18:43:40.567]: Info: Color coding: SDR (Rec. 601)
+[2026-03-11 18:43:40.567]: Info: Color depth: 8-bit
+[2026-03-11 18:43:40.567]: Info: Color range: JPEG
+[2026-03-11 18:43:40.656]: Info: Streaming bitrate is 1000000
+[2026-03-11 18:43:40.680]: Error: Couldn't scale frame: Invalid argument
+[2026-03-11 18:43:40.744]: Info: Encoder [nvenc] failed
+[2026-03-11 18:43:40.744]: Info: Trying encoder [vaapi]
+[2026-03-11 18:43:40.744]: Info: Screencasting with Wayland's protocol
+[2026-03-11 18:43:40.744]: Info: Found display [wayland-1]
+[2026-03-11 18:43:40.744]: Info: Found interface: zxdg_output_manager_v1(9) version 3
+[2026-03-11 18:43:40.744]: Info: Found interface: zwlr_screencopy_manager_v1(56) version 3
+[2026-03-11 18:43:40.744]: Info: Found interface: zwp_linux_dmabuf_v1(65) version 5
+[2026-03-11 18:43:40.744]: Info: Found interface: wl_output(68) version 4
+[2026-03-11 18:43:40.744]: Info: Resolution: 1920x1080
+[2026-03-11 18:43:40.744]: Info: Name: DP-1
+[2026-03-11 18:43:40.744]: Info: Found monitor: Acer Technologies ED242QR A TBDEE0043900 (DP-1)
+[2026-03-11 18:43:40.744]: Info: Offset: 0x0
+[2026-03-11 18:43:40.744]: Info: Logical size: 1920x1080
+[2026-03-11 18:43:40.744]: Info: Selected monitor [Acer Technologies ED242QR A TBDEE0043900 (DP-1)] for streaming
+[2026-03-11 18:43:40.744]: Info: Creating encoder [h264_vaapi]
+[2026-03-11 18:43:40.744]: Info: Color coding: SDR (Rec. 601)
+[2026-03-11 18:43:40.744]: Info: Color depth: 8-bit
+[2026-03-11 18:43:40.744]: Info: Color range: JPEG
+[2026-03-11 18:43:40.960]: Info: vaapi vendor: VA-API NVDEC driver [direct backend]
+[2026-03-11 18:43:40.960]: Info: Streaming bitrate is 1000000
+[2026-03-11 18:43:40.960]: Error: [h264_vaapi @ 0x7f1d50048080] No usable encoding entrypoint found for profile VAProfileH264High (7).
+[2026-03-11 18:43:41.017]: Error: Could not open codec [h264_vaapi]: Function not implemented
+[2026-03-11 18:43:41.017]: Info: Encoder [vaapi] failed
+[2026-03-11 18:43:41.017]: Info: Trying encoder [software]
+[2026-03-11 18:43:41.017]: Info: Screencasting with Wayland's protocol
+[2026-03-11 18:43:41.017]: Info: Found display [wayland-1]
+[2026-03-11 18:43:41.018]: Info: Found interface: zxdg_output_manager_v1(9) version 3
+[2026-03-11 18:43:41.018]: Info: Found interface: zwlr_screencopy_manager_v1(56) version 3
+[2026-03-11 18:43:41.018]: Info: Found interface: zwp_linux_dmabuf_v1(65) version 5
+[2026-03-11 18:43:41.018]: Info: Found interface: wl_output(68) version 4
+[2026-03-11 18:43:41.018]: Info: Resolution: 1920x1080
+[2026-03-11 18:43:41.018]: Info: Name: DP-1
+[2026-03-11 18:43:41.018]: Info: Found monitor: Acer Technologies ED242QR A TBDEE0043900 (DP-1)
+[2026-03-11 18:43:41.018]: Info: Offset: 0x0
+[2026-03-11 18:43:41.018]: Info: Logical size: 1920x1080
+[2026-03-11 18:43:41.018]: Info: Selected monitor [Acer Technologies ED242QR A TBDEE0043900 (DP-1)] for streaming
+[2026-03-11 18:43:41.021]: Info: Creating encoder [libx264]
+[2026-03-11 18:43:41.021]: Info: Color coding: SDR (Rec. 601)
+[2026-03-11 18:43:41.021]: Info: Color depth: 8-bit
+[2026-03-11 18:43:41.021]: Info: Color range: JPEG
+[2026-03-11 18:43:41.021]: Info: Streaming bitrate is 1000000
+[2026-03-11 18:43:41.021]: Info: [libx264 @ 0x7f1d50048080] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+[2026-03-11 18:43:41.022]: Info: [libx264 @ 0x7f1d50048080] profile High, level 4.2, 4:2:0, 8-bit
+[2026-03-11 18:43:41.033]: Info: [libx264 @ 0x7f1d50048080] frame I:1     Avg QP:31.57  size:  1317
+[2026-03-11 18:43:41.033]: Info: [libx264 @ 0x7f1d50048080] mb I  I16..4: 99.8%  0.1%  0.0%
+[2026-03-11 18:43:41.033]: Info: [libx264 @ 0x7f1d50048080] 8x8 transform intra:0.1%
+[2026-03-11 18:43:41.033]: Info: [libx264 @ 0x7f1d50048080] coded y,uvDC,uvAC intra: 0.1% 0.0% 0.0%
+[2026-03-11 18:43:41.033]: Info: [libx264 @ 0x7f1d50048080] i16 v,h,dc,p: 91%  6%  3%  0%
+[2026-03-11 18:43:41.033]: Info: [libx264 @ 0x7f1d50048080] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 21% 19% 25% 15%  0%  0%  0%  0% 21%
+[2026-03-11 18:43:41.033]: Info: [libx264 @ 0x7f1d50048080] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu:  0%  0% 94%  0%  0%  0%  0%  0%  6%
+[2026-03-11 18:43:41.033]: Info: [libx264 @ 0x7f1d50048080] i8c dc,h,v,p: 100%  0%  0%  0%
+[2026-03-11 18:43:41.033]: Info: [libx264 @ 0x7f1d50048080] kb/s:632.16
+[2026-03-11 18:43:41.033]: Info: Creating encoder [libx264]
+[2026-03-11 18:43:41.033]: Info: Color coding: SDR (Rec. 601)
+[2026-03-11 18:43:41.033]: Info: Color depth: 8-bit
+[2026-03-11 18:43:41.033]: Info: Color range: JPEG
+[2026-03-11 18:43:41.033]: Info: Streaming bitrate is 1000000
+[2026-03-11 18:43:41.033]: Info: [libx264 @ 0x7f1d50048080] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+[2026-03-11 18:43:41.034]: Info: [libx264 @ 0x7f1d50048080] profile High 4:4:4 Predictive, level 4.2, 4:4:4, 8-bit
+[2026-03-11 18:43:41.048]: Info: [libx264 @ 0x7f1d50048080] frame I:1     Avg QP:31.00  size:  1312
+[2026-03-11 18:43:41.048]: Info: [libx264 @ 0x7f1d50048080] mb I  I16..4: 99.9%  0.0%  0.0%
+[2026-03-11 18:43:41.048]: Info: [libx264 @ 0x7f1d50048080] 8x8 transform intra:0.0%
+[2026-03-11 18:43:41.048]: Info: [libx264 @ 0x7f1d50048080] coded y,u,v intra: 0.0% 0.0% 0.0%
+[2026-03-11 18:43:41.048]: Info: [libx264 @ 0x7f1d50048080] i16 v,h,dc,p: 97%  0%  3%  0%
+[2026-03-11 18:43:41.048]: Info: [libx264 @ 0x7f1d50048080] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu:  0%  0% 75% 12%  0%  0%  0%  0% 12%
+[2026-03-11 18:43:41.048]: Info: [libx264 @ 0x7f1d50048080] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu:  0%  0% 100%  0%  0%  0%  0%  0%  0%
+[2026-03-11 18:43:41.048]: Info: [libx264 @ 0x7f1d50048080] kb/s:629.76
+[2026-03-11 18:43:41.050]: Info: Screencasting with Wayland's protocol
+[2026-03-11 18:43:41.050]: Info: Found display [wayland-1]
+[2026-03-11 18:43:41.050]: Info: Found interface: zxdg_output_manager_v1(9) version 3
+[2026-03-11 18:43:41.050]: Info: Found interface: zwlr_screencopy_manager_v1(56) version 3
+[2026-03-11 18:43:41.050]: Info: Found interface: zwp_linux_dmabuf_v1(65) version 5
+[2026-03-11 18:43:41.050]: Info: Found interface: wl_output(68) version 4
+[2026-03-11 18:43:41.050]: Info: Resolution: 1920x1080
+[2026-03-11 18:43:41.050]: Info: Name: DP-1
+[2026-03-11 18:43:41.050]: Info: Found monitor: Acer Technologies ED242QR A TBDEE0043900 (DP-1)
+[2026-03-11 18:43:41.050]: Info: Offset: 0x0
+[2026-03-11 18:43:41.050]: Info: Logical size: 1920x1080
+[2026-03-11 18:43:41.050]: Info: Selected monitor [Acer Technologies ED242QR A TBDEE0043900 (DP-1)] for streaming
+[2026-03-11 18:43:41.052]: Info: 
+[2026-03-11 18:43:41.052]: Info: // Ignore any errors mentioned above, they are not relevant. //
+[2026-03-11 18:43:41.052]: Info: 
+[2026-03-11 18:43:41.053]: Info: Found H.264 encoder: libx264 [software]
+[2026-03-11 18:43:41.053]: Info: Executing [Desktop]
+[2026-03-11 18:43:41.102]: Info: New streaming session started [active sessions: 1]
+[2026-03-11 18:43:41.123]: Info: Found display [wayland-1]
+[2026-03-11 18:43:41.123]: Info: Found interface: zxdg_output_manager_v1(9) version 3
+[2026-03-11 18:43:41.123]: Info: Found interface: zwlr_screencopy_manager_v1(56) version 3
+[2026-03-11 18:43:41.123]: Info: Found interface: zwp_linux_dmabuf_v1(65) version 5
+[2026-03-11 18:43:41.123]: Info: Found interface: wl_output(68) version 4
+[2026-03-11 18:43:41.124]: Info: Resolution: 1920x1080
+[2026-03-11 18:43:41.124]: Info: Name: DP-1
+[2026-03-11 18:43:41.124]: Info: Found monitor: Acer Technologies ED242QR A TBDEE0043900 (DP-1)
+[2026-03-11 18:43:41.124]: Info: Offset: 0x0
+[2026-03-11 18:43:41.124]: Info: Logical size: 1920x1080
+[2026-03-11 18:43:41.124]: Info: -------- Start of Wayland monitor list --------
+[2026-03-11 18:43:41.124]: Info: Monitor 0 is DP-1: Acer Technologies ED242QR A TBDEE0043900 (DP-1)
+[2026-03-11 18:43:41.124]: Info: --------- End of Wayland monitor list ---------
+[2026-03-11 18:43:41.124]: Info: Screencasting with Wayland's protocol
+[2026-03-11 18:43:41.124]: Info: Found display [wayland-1]
+[2026-03-11 18:43:41.124]: Info: Found interface: zxdg_output_manager_v1(9) version 3
+[2026-03-11 18:43:41.124]: Info: Found interface: zwlr_screencopy_manager_v1(56) version 3
+[2026-03-11 18:43:41.124]: Info: Found interface: zwp_linux_dmabuf_v1(65) version 5
+[2026-03-11 18:43:41.124]: Info: Found interface: wl_output(68) version 4
+[2026-03-11 18:43:41.124]: Info: Resolution: 1920x1080
+[2026-03-11 18:43:41.124]: Info: Name: DP-1
+[2026-03-11 18:43:41.124]: Info: Found monitor: Acer Technologies ED242QR A TBDEE0043900 (DP-1)
+[2026-03-11 18:43:41.124]: Info: Offset: 0x0
+[2026-03-11 18:43:41.124]: Info: Logical size: 1920x1080
+[2026-03-11 18:43:41.124]: Info: Selected monitor [Acer Technologies ED242QR A TBDEE0043900 (DP-1)] for streaming
+[2026-03-11 18:43:41.128]: Info: CLIENT CONNECTED
+[2026-03-11 18:43:41.155]: Info: Creating encoder [libx264]
+[2026-03-11 18:43:41.155]: Info: Color coding: SDR (Rec. 601)
+[2026-03-11 18:43:41.155]: Info: Color depth: 8-bit
+[2026-03-11 18:43:41.155]: Info: Color range: MPEG
+[2026-03-11 18:43:41.155]: Info: Streaming bitrate is 28588000
+[2026-03-11 18:43:41.156]: Info: [libx264 @ 0x7f1d2c0025c0] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+[2026-03-11 18:43:41.157]: Info: [libx264 @ 0x7f1d2c0025c0] profile High, level 5.1, 4:2:0, 8-bit
+[2026-03-11 18:43:41.159]: Info: Minimum FPS target set to ~45fps (22.2222ms)
+[2026-03-11 18:43:41.412]: Info: Gamepad 0 will be Xbox One controller (default)
+[2026-03-11 18:43:41.412]: Info: Gamepad 1 will be Xbox One controller (default)
+[2026-03-11 18:43:41.587]: Info: Setting default sink to: [sink-sunshine-stereo]
+[2026-03-11 18:43:41.587]: Info: Found default monitor by name: sink-sunshine-stereo.monitor
+[2026-03-11 18:43:41.598]: Info: Opus initialized: 48 kHz, 2 channels, 512 kbps (total), LOWDELAY
+[2026-03-11 18:44:42.349]: Info: CLIENT DISCONNECTED
+[2026-03-11 18:44:42.350]: Info: [libx264 @ 0x7f1d2c0025c0] frame I:9     Avg QP:13.91  size: 32487
+[2026-03-11 18:44:42.350]: Info: [libx264 @ 0x7f1d2c0025c0] frame P:5500  Avg QP: 2.32  size: 10387
+[2026-03-11 18:44:42.350]: Info: [libx264 @ 0x7f1d2c0025c0] mb I  I16..4: 81.0% 12.9%  6.1%
+[2026-03-11 18:44:42.350]: Info: [libx264 @ 0x7f1d2c0025c0] mb P  I16..4:  0.8%  0.1%  0.1%  P16..4: 19.9%  0.0%  0.0%  0.0%  0.0%    skip:79.1%
+[2026-03-11 18:44:42.350]: Info: [libx264 @ 0x7f1d2c0025c0] 8x8 transform intra:9.7% inter:5.4%
+[2026-03-11 18:44:42.350]: Info: [libx264 @ 0x7f1d2c0025c0] coded y,uvDC,uvAC intra: 13.3% 28.6% 24.5% inter: 8.0% 3.0% 2.8%
+[2026-03-11 18:44:42.350]: Info: [libx264 @ 0x7f1d2c0025c0] i16 v,h,dc,p: 72% 25%  2%  2%
+[2026-03-11 18:44:42.350]: Info: [libx264 @ 0x7f1d2c0025c0] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 12% 21% 34%  6%  6%  3%  7%  3%  8%
+[2026-03-11 18:44:42.350]: Info: [libx264 @ 0x7f1d2c0025c0] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 35% 19% 33%  2%  3%  2%  2%  2%  2%
+[2026-03-11 18:44:42.350]: Info: [libx264 @ 0x7f1d2c0025c0] i8c dc,h,v,p: 59% 28% 12%  2%
+[2026-03-11 18:44:42.350]: Info: [libx264 @ 0x7f1d2c0025c0] Weighted P-Frames: Y:0.3% UV:0.2%
+[2026-03-11 18:44:42.350]: Info: [libx264 @ 0x7f1d2c0025c0] kb/s:7504.38
+[2026-03-11 18:44:42.353]: Info: Setting default sink to: [alsa_output.pci-0000_07_00.4.analog-stereo]
+[2026-03-11 18:45:49.592]: Info: // Testing for available encoders, this may generate errors. You can safely ignore those errors. //
+[2026-03-11 18:45:49.593]: Info: Trying encoder [nvenc]
+[2026-03-11 18:45:49.593]: Info: Screencasting with Wayland's protocol
+[2026-03-11 18:45:49.593]: Info: Found display [wayland-1]
+[2026-03-11 18:45:49.593]: Info: Found interface: zxdg_output_manager_v1(9) version 3
+[2026-03-11 18:45:49.593]: Info: Found interface: zwlr_screencopy_manager_v1(56) version 3
+[2026-03-11 18:45:49.593]: Info: Found interface: zwp_linux_dmabuf_v1(65) version 5
+[2026-03-11 18:45:49.593]: Info: Found interface: wl_output(68) version 4
+[2026-03-11 18:45:49.593]: Info: Resolution: 1920x1080
+[2026-03-11 18:45:49.593]: Info: Name: DP-1
+[2026-03-11 18:45:49.593]: Info: Found monitor: Acer Technologies ED242QR A TBDEE0043900 (DP-1)
+[2026-03-11 18:45:49.593]: Info: Offset: 0x0
+[2026-03-11 18:45:49.593]: Info: Logical size: 1920x1080
+[2026-03-11 18:45:49.593]: Info: Selected monitor [Acer Technologies ED242QR A TBDEE0043900 (DP-1)] for streaming
+[2026-03-11 18:45:49.593]: Info: Creating encoder [h264_nvenc]
+[2026-03-11 18:45:49.593]: Info: Color coding: SDR (Rec. 601)
+[2026-03-11 18:45:49.593]: Info: Color depth: 8-bit
+[2026-03-11 18:45:49.593]: Info: Color range: JPEG
+[2026-03-11 18:45:49.679]: Info: Streaming bitrate is 1000000
+[2026-03-11 18:45:49.698]: Error: Couldn't scale frame: Invalid argument
+[2026-03-11 18:45:49.756]: Info: Encoder [nvenc] failed
+[2026-03-11 18:45:49.756]: Info: Trying encoder [vaapi]
+[2026-03-11 18:45:49.756]: Info: Screencasting with Wayland's protocol
+[2026-03-11 18:45:49.756]: Info: Found display [wayland-1]
+[2026-03-11 18:45:49.756]: Info: Found interface: zxdg_output_manager_v1(9) version 3
+[2026-03-11 18:45:49.756]: Info: Found interface: zwlr_screencopy_manager_v1(56) version 3
+[2026-03-11 18:45:49.756]: Info: Found interface: zwp_linux_dmabuf_v1(65) version 5
+[2026-03-11 18:45:49.756]: Info: Found interface: wl_output(68) version 4
+[2026-03-11 18:45:49.756]: Info: Resolution: 1920x1080
+[2026-03-11 18:45:49.756]: Info: Name: DP-1
+[2026-03-11 18:45:49.756]: Info: Found monitor: Acer Technologies ED242QR A TBDEE0043900 (DP-1)
+[2026-03-11 18:45:49.756]: Info: Offset: 0x0
+[2026-03-11 18:45:49.756]: Info: Logical size: 1920x1080
+[2026-03-11 18:45:49.756]: Info: Selected monitor [Acer Technologies ED242QR A TBDEE0043900 (DP-1)] for streaming
+[2026-03-11 18:45:49.756]: Info: Creating encoder [h264_vaapi]
+[2026-03-11 18:45:49.756]: Info: Color coding: SDR (Rec. 601)
+[2026-03-11 18:45:49.756]: Info: Color depth: 8-bit
+[2026-03-11 18:45:49.756]: Info: Color range: JPEG
+[2026-03-11 18:45:49.916]: Info: vaapi vendor: VA-API NVDEC driver [direct backend]
+[2026-03-11 18:45:49.916]: Info: Streaming bitrate is 1000000
+[2026-03-11 18:45:49.916]: Error: [h264_vaapi @ 0x7f1d50048080] No usable encoding entrypoint found for profile VAProfileH264High (7).
+[2026-03-11 18:45:49.962]: Error: Could not open codec [h264_vaapi]: Function not implemented
+[2026-03-11 18:45:49.963]: Info: Encoder [vaapi] failed
+[2026-03-11 18:45:49.963]: Info: Trying encoder [software]
+[2026-03-11 18:45:49.963]: Info: Screencasting with Wayland's protocol
+[2026-03-11 18:45:49.963]: Info: Found display [wayland-1]
+[2026-03-11 18:45:49.963]: Info: Found interface: zxdg_output_manager_v1(9) version 3
+[2026-03-11 18:45:49.963]: Info: Found interface: zwlr_screencopy_manager_v1(56) version 3
+[2026-03-11 18:45:49.963]: Info: Found interface: zwp_linux_dmabuf_v1(65) version 5
+[2026-03-11 18:45:49.963]: Info: Found interface: wl_output(68) version 4
+[2026-03-11 18:45:49.963]: Info: Resolution: 1920x1080
+[2026-03-11 18:45:49.963]: Info: Name: DP-1
+[2026-03-11 18:45:49.963]: Info: Found monitor: Acer Technologies ED242QR A TBDEE0043900 (DP-1)
+[2026-03-11 18:45:49.963]: Info: Offset: 0x0
+[2026-03-11 18:45:49.963]: Info: Logical size: 1920x1080
+[2026-03-11 18:45:49.963]: Info: Selected monitor [Acer Technologies ED242QR A TBDEE0043900 (DP-1)] for streaming
+[2026-03-11 18:45:49.967]: Info: Creating encoder [libx264]
+[2026-03-11 18:45:49.967]: Info: Color coding: SDR (Rec. 601)
+[2026-03-11 18:45:49.967]: Info: Color depth: 8-bit
+[2026-03-11 18:45:49.967]: Info: Color range: JPEG
+[2026-03-11 18:45:49.967]: Info: Streaming bitrate is 1000000
+[2026-03-11 18:45:49.967]: Info: [libx264 @ 0x7f1d50048080] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+[2026-03-11 18:45:49.968]: Info: [libx264 @ 0x7f1d50048080] profile High, level 4.2, 4:2:0, 8-bit
+[2026-03-11 18:45:49.976]: Warning: [libx264 @ 0x7f1d50048080] VBV underflow (frame 0, -244 bits)
+[2026-03-11 18:45:49.978]: Info: [libx264 @ 0x7f1d50048080] frame I:1     Avg QP:51.00  size:  2843
+[2026-03-11 18:45:49.978]: Info: [libx264 @ 0x7f1d50048080] mb I  I16..4: 98.5%  1.5%  0.0%
+[2026-03-11 18:45:49.978]: Info: [libx264 @ 0x7f1d50048080] 8x8 transform intra:1.5%
+[2026-03-11 18:45:49.978]: Info: [libx264 @ 0x7f1d50048080] coded y,uvDC,uvAC intra: 3.9% 4.6% 0.0%
+[2026-03-11 18:45:49.978]: Info: [libx264 @ 0x7f1d50048080] i16 v,h,dc,p: 72% 25%  3%  0%
+[2026-03-11 18:45:49.978]: Info: [libx264 @ 0x7f1d50048080] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 15% 31% 32%  6%  1%  0%  2%  1% 13%
+[2026-03-11 18:45:49.978]: Info: [libx264 @ 0x7f1d50048080] i8c dc,h,v,p: 99%  1%  0%  0%
+[2026-03-11 18:45:49.978]: Info: [libx264 @ 0x7f1d50048080] kb/s:1364.64
+[2026-03-11 18:45:49.978]: Info: Creating encoder [libx264]
+[2026-03-11 18:45:49.978]: Info: Color coding: SDR (Rec. 601)
+[2026-03-11 18:45:49.978]: Info: Color depth: 8-bit
+[2026-03-11 18:45:49.978]: Info: Color range: JPEG
+[2026-03-11 18:45:49.978]: Info: Streaming bitrate is 1000000
+[2026-03-11 18:45:49.978]: Info: [libx264 @ 0x7f1d50048080] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+[2026-03-11 18:45:49.979]: Info: [libx264 @ 0x7f1d50048080] profile High 4:4:4 Predictive, level 4.2, 4:4:4, 8-bit
+[2026-03-11 18:45:49.993]: Info: [libx264 @ 0x7f1d50048080] frame I:1     Avg QP:50.09  size:  2586
+[2026-03-11 18:45:49.993]: Info: [libx264 @ 0x7f1d50048080] mb I  I16..4: 98.4%  1.6%  0.0%
+[2026-03-11 18:45:49.993]: Info: [libx264 @ 0x7f1d50048080] 8x8 transform intra:1.6%
+[2026-03-11 18:45:49.993]: Info: [libx264 @ 0x7f1d50048080] coded y,u,v intra: 0.5% 0.1% 0.1%
+[2026-03-11 18:45:49.993]: Info: [libx264 @ 0x7f1d50048080] i16 v,h,dc,p: 62% 34%  4%  0%
+[2026-03-11 18:45:49.993]: Info: [libx264 @ 0x7f1d50048080] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu:  0% 13% 35% 46%  0%  0%  0%  0%  5%
+[2026-03-11 18:45:49.993]: Info: [libx264 @ 0x7f1d50048080] kb/s:1241.28
+[2026-03-11 18:45:49.994]: Info: Screencasting with Wayland's protocol
+[2026-03-11 18:45:49.994]: Info: Found display [wayland-1]
+[2026-03-11 18:45:49.994]: Info: Found interface: zxdg_output_manager_v1(9) version 3
+[2026-03-11 18:45:49.994]: Info: Found interface: zwlr_screencopy_manager_v1(56) version 3
+[2026-03-11 18:45:49.994]: Info: Found interface: zwp_linux_dmabuf_v1(65) version 5
+[2026-03-11 18:45:49.994]: Info: Found interface: wl_output(68) version 4
+[2026-03-11 18:45:49.994]: Info: Resolution: 1920x1080
+[2026-03-11 18:45:49.994]: Info: Name: DP-1
+[2026-03-11 18:45:49.994]: Info: Found monitor: Acer Technologies ED242QR A TBDEE0043900 (DP-1)
+[2026-03-11 18:45:49.994]: Info: Offset: 0x0
+[2026-03-11 18:45:49.994]: Info: Logical size: 1920x1080
+[2026-03-11 18:45:49.994]: Info: Selected monitor [Acer Technologies ED242QR A TBDEE0043900 (DP-1)] for streaming
+[2026-03-11 18:45:49.997]: Info: 
+[2026-03-11 18:45:49.997]: Info: // Ignore any errors mentioned above, they are not relevant. //
+[2026-03-11 18:45:49.997]: Info: 
+[2026-03-11 18:45:49.997]: Info: Found H.264 encoder: libx264 [software]
+[2026-03-11 18:45:49.997]: Info: Spawning [setsid steam steam://open/bigpicture] in ["/usr/bin"]
+[2026-03-11 18:45:50.002]: Info: Executing [Desktop]
+[2026-03-11 18:45:50.090]: Info: New streaming session started [active sessions: 1]
+[2026-03-11 18:45:50.109]: Info: CLIENT CONNECTED
+[2026-03-11 18:45:50.110]: Info: Found display [wayland-1]
+[2026-03-11 18:45:50.110]: Info: Found interface: zxdg_output_manager_v1(9) version 3
+[2026-03-11 18:45:50.110]: Info: Found interface: zwlr_screencopy_manager_v1(56) version 3
+[2026-03-11 18:45:50.110]: Info: Found interface: zwp_linux_dmabuf_v1(65) version 5
+[2026-03-11 18:45:50.110]: Info: Found interface: wl_output(68) version 4
+[2026-03-11 18:45:50.110]: Info: Resolution: 1920x1080
+[2026-03-11 18:45:50.110]: Info: Name: DP-1
+[2026-03-11 18:45:50.110]: Info: Found monitor: Acer Technologies ED242QR A TBDEE0043900 (DP-1)
+[2026-03-11 18:45:50.110]: Info: Offset: 0x0
+[2026-03-11 18:45:50.111]: Info: Logical size: 1920x1080
+[2026-03-11 18:45:50.111]: Info: -------- Start of Wayland monitor list --------
+[2026-03-11 18:45:50.111]: Info: Monitor 0 is DP-1: Acer Technologies ED242QR A TBDEE0043900 (DP-1)
+[2026-03-11 18:45:50.111]: Info: --------- End of Wayland monitor list ---------
+[2026-03-11 18:45:50.111]: Info: Screencasting with Wayland's protocol
+[2026-03-11 18:45:50.111]: Info: Found display [wayland-1]
+[2026-03-11 18:45:50.111]: Info: Found interface: zxdg_output_manager_v1(9) version 3
+[2026-03-11 18:45:50.111]: Info: Found interface: zwlr_screencopy_manager_v1(56) version 3
+[2026-03-11 18:45:50.111]: Info: Found interface: zwp_linux_dmabuf_v1(65) version 5
+[2026-03-11 18:45:50.111]: Info: Found interface: wl_output(68) version 4
+[2026-03-11 18:45:50.111]: Info: Resolution: 1920x1080
+[2026-03-11 18:45:50.111]: Info: Name: DP-1
+[2026-03-11 18:45:50.111]: Info: Found monitor: Acer Technologies ED242QR A TBDEE0043900 (DP-1)
+[2026-03-11 18:45:50.111]: Info: Offset: 0x0
+[2026-03-11 18:45:50.111]: Info: Logical size: 1920x1080
+[2026-03-11 18:45:50.111]: Info: Selected monitor [Acer Technologies ED242QR A TBDEE0043900 (DP-1)] for streaming
+[2026-03-11 18:45:50.142]: Info: Creating encoder [libx264]
+[2026-03-11 18:45:50.143]: Info: Color coding: SDR (Rec. 601)
+[2026-03-11 18:45:50.143]: Info: Color depth: 8-bit
+[2026-03-11 18:45:50.143]: Info: Color range: MPEG
+[2026-03-11 18:45:50.143]: Info: Streaming bitrate is 28588000
+[2026-03-11 18:45:50.143]: Info: [libx264 @ 0x7f1d30008140] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+[2026-03-11 18:45:50.144]: Info: [libx264 @ 0x7f1d30008140] profile High, level 5.1, 4:2:0, 8-bit
+[2026-03-11 18:45:50.146]: Info: Minimum FPS target set to ~45fps (22.2222ms)
+[2026-03-11 18:45:50.412]: Info: Gamepad 0 will be Xbox One controller (default)
+[2026-03-11 18:45:50.413]: Info: Gamepad 1 will be Xbox One controller (default)
+[2026-03-11 18:45:50.413]: Info: Gamepad 2 will be Xbox One controller (default)
+[2026-03-11 18:45:50.579]: Info: Setting default sink to: [sink-sunshine-stereo]
+[2026-03-11 18:45:50.579]: Info: Found default monitor by name: sink-sunshine-stereo.monitor
+[2026-03-11 18:45:50.594]: Info: Opus initialized: 48 kHz, 2 channels, 512 kbps (total), LOWDELAY
+[2026-03-11 18:48:55.473]: Info: CLIENT DISCONNECTED
+[2026-03-11 18:48:55.474]: Info: [libx264 @ 0x7f1d30008140] frame I:10    Avg QP:24.44  size: 43953
+[2026-03-11 18:48:55.474]: Info: [libx264 @ 0x7f1d30008140] frame P:16632 Avg QP: 1.29  size:  6494
+[2026-03-11 18:48:55.474]: Info: [libx264 @ 0x7f1d30008140] mb I  I16..4: 71.0% 21.9%  7.2%
+[2026-03-11 18:48:55.474]: Info: [libx264 @ 0x7f1d30008140] mb P  I16..4:  0.7%  0.1%  0.0%  P16..4:  9.6%  0.0%  0.0%  0.0%  0.0%    skip:89.6%
+[2026-03-11 18:48:55.474]: Info: [libx264 @ 0x7f1d30008140] 8x8 transform intra:15.1% inter:6.3%
+[2026-03-11 18:48:55.474]: Info: [libx264 @ 0x7f1d30008140] coded y,uvDC,uvAC intra: 14.6% 18.5% 15.0% inter: 4.0% 1.6% 1.5%
+[2026-03-11 18:48:55.474]: Info: [libx264 @ 0x7f1d30008140] i16 v,h,dc,p: 73% 22%  3%  2%
+[2026-03-11 18:48:55.474]: Info: [libx264 @ 0x7f1d30008140] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 11% 29% 29%  5%  6%  3%  8%  3%  7%
+[2026-03-11 18:48:55.474]: Info: [libx264 @ 0x7f1d30008140] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 26% 32% 20%  5%  4%  3%  4%  3%  4%
+[2026-03-11 18:48:55.474]: Info: [libx264 @ 0x7f1d30008140] i8c dc,h,v,p: 71% 23%  4%  2%
+[2026-03-11 18:48:55.474]: Info: [libx264 @ 0x7f1d30008140] Weighted P-Frames: Y:0.1% UV:0.0%
+[2026-03-11 18:48:55.474]: Info: [libx264 @ 0x7f1d30008140] kb/s:4691.88
+[2026-03-11 18:48:55.477]: Info: Setting default sink to: [alsa_output.pci-0000_07_00.4.analog-stereo]
+[2026-03-11 18:49:07.941]: Info: Executing Undo Cmd: [setsid steam steam://close/bigpicture]
+[2026-03-11 18:49:14.125]: Info: // Testing for available encoders, this may generate errors. You can safely ignore those errors. //
+[2026-03-11 18:49:14.125]: Info: Trying encoder [nvenc]
+[2026-03-11 18:49:14.125]: Info: Screencasting with Wayland's protocol
+[2026-03-11 18:49:14.125]: Info: Found display [wayland-1]
+[2026-03-11 18:49:14.125]: Info: Found interface: zxdg_output_manager_v1(9) version 3
+[2026-03-11 18:49:14.125]: Info: Found interface: zwlr_screencopy_manager_v1(56) version 3
+[2026-03-11 18:49:14.125]: Info: Found interface: zwp_linux_dmabuf_v1(65) version 5
+[2026-03-11 18:49:14.125]: Info: Found interface: wl_output(68) version 4
+[2026-03-11 18:49:14.125]: Info: Resolution: 1920x1080
+[2026-03-11 18:49:14.125]: Info: Name: DP-1
+[2026-03-11 18:49:14.125]: Info: Found monitor: Acer Technologies ED242QR A TBDEE0043900 (DP-1)
+[2026-03-11 18:49:14.125]: Info: Offset: 0x0
+[2026-03-11 18:49:14.125]: Info: Logical size: 1920x1080
+[2026-03-11 18:49:14.125]: Info: Selected monitor [Acer Technologies ED242QR A TBDEE0043900 (DP-1)] for streaming
+[2026-03-11 18:49:14.125]: Info: Creating encoder [h264_nvenc]
+[2026-03-11 18:49:14.125]: Info: Color coding: SDR (Rec. 601)
+[2026-03-11 18:49:14.125]: Info: Color depth: 8-bit
+[2026-03-11 18:49:14.125]: Info: Color range: JPEG
+[2026-03-11 18:49:14.221]: Info: Streaming bitrate is 1000000
+[2026-03-11 18:49:14.240]: Error: Couldn't scale frame: Invalid argument
+[2026-03-11 18:49:14.295]: Info: Encoder [nvenc] failed
+[2026-03-11 18:49:14.295]: Info: Trying encoder [vaapi]
+[2026-03-11 18:49:14.295]: Info: Screencasting with Wayland's protocol
+[2026-03-11 18:49:14.295]: Info: Found display [wayland-1]
+[2026-03-11 18:49:14.295]: Info: Found interface: zxdg_output_manager_v1(9) version 3
+[2026-03-11 18:49:14.295]: Info: Found interface: zwlr_screencopy_manager_v1(56) version 3
+[2026-03-11 18:49:14.295]: Info: Found interface: zwp_linux_dmabuf_v1(65) version 5
+[2026-03-11 18:49:14.295]: Info: Found interface: wl_output(68) version 4
+[2026-03-11 18:49:14.295]: Info: Resolution: 1920x1080
+[2026-03-11 18:49:14.295]: Info: Name: DP-1
+[2026-03-11 18:49:14.295]: Info: Found monitor: Acer Technologies ED242QR A TBDEE0043900 (DP-1)
+[2026-03-11 18:49:14.295]: Info: Offset: 0x0
+[2026-03-11 18:49:14.295]: Info: Logical size: 1920x1080
+[2026-03-11 18:49:14.295]: Info: Selected monitor [Acer Technologies ED242QR A TBDEE0043900 (DP-1)] for streaming
+[2026-03-11 18:49:14.295]: Info: Creating encoder [h264_vaapi]
+[2026-03-11 18:49:14.295]: Info: Color coding: SDR (Rec. 601)
+[2026-03-11 18:49:14.295]: Info: Color depth: 8-bit
+[2026-03-11 18:49:14.295]: Info: Color range: JPEG
+[2026-03-11 18:49:14.453]: Info: vaapi vendor: VA-API NVDEC driver [direct backend]
+[2026-03-11 18:49:14.453]: Info: Streaming bitrate is 1000000
+[2026-03-11 18:49:14.453]: Error: [h264_vaapi @ 0x7f1d50048080] No usable encoding entrypoint found for profile VAProfileH264High (7).
+[2026-03-11 18:49:14.501]: Error: Could not open codec [h264_vaapi]: Function not implemented
+[2026-03-11 18:49:14.502]: Info: Encoder [vaapi] failed
+[2026-03-11 18:49:14.502]: Info: Trying encoder [software]
+[2026-03-11 18:49:14.502]: Info: Screencasting with Wayland's protocol
+[2026-03-11 18:49:14.502]: Info: Found display [wayland-1]
+[2026-03-11 18:49:14.502]: Info: Found interface: zxdg_output_manager_v1(9) version 3
+[2026-03-11 18:49:14.502]: Info: Found interface: zwlr_screencopy_manager_v1(56) version 3
+[2026-03-11 18:49:14.502]: Info: Found interface: zwp_linux_dmabuf_v1(65) version 5
+[2026-03-11 18:49:14.502]: Info: Found interface: wl_output(68) version 4
+[2026-03-11 18:49:14.502]: Info: Resolution: 1920x1080
+[2026-03-11 18:49:14.502]: Info: Name: DP-1
+[2026-03-11 18:49:14.502]: Info: Found monitor: Acer Technologies ED242QR A TBDEE0043900 (DP-1)
+[2026-03-11 18:49:14.502]: Info: Offset: 0x0
+[2026-03-11 18:49:14.502]: Info: Logical size: 1920x1080
+[2026-03-11 18:49:14.502]: Info: Selected monitor [Acer Technologies ED242QR A TBDEE0043900 (DP-1)] for streaming
+[2026-03-11 18:49:14.504]: Info: Creating encoder [libx264]
+[2026-03-11 18:49:14.504]: Info: Color coding: SDR (Rec. 601)
+[2026-03-11 18:49:14.504]: Info: Color depth: 8-bit
+[2026-03-11 18:49:14.504]: Info: Color range: JPEG
+[2026-03-11 18:49:14.504]: Info: Streaming bitrate is 1000000
+[2026-03-11 18:49:14.505]: Info: [libx264 @ 0x7f1d50048080] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+[2026-03-11 18:49:14.505]: Info: [libx264 @ 0x7f1d50048080] profile High, level 4.2, 4:2:0, 8-bit
+[2026-03-11 18:49:14.516]: Info: [libx264 @ 0x7f1d50048080] frame I:1     Avg QP:51.00  size:  1872
+[2026-03-11 18:49:14.516]: Info: [libx264 @ 0x7f1d50048080] mb I  I16..4: 99.3%  0.7%  0.0%
+[2026-03-11 18:49:14.516]: Info: [libx264 @ 0x7f1d50048080] 8x8 transform intra:0.7%
+[2026-03-11 18:49:14.516]: Info: [libx264 @ 0x7f1d50048080] coded y,uvDC,uvAC intra: 0.3% 2.8% 0.0%
+[2026-03-11 18:49:14.516]: Info: [libx264 @ 0x7f1d50048080] i16 v,h,dc,p: 55% 42%  3%  0%
+[2026-03-11 18:49:14.516]: Info: [libx264 @ 0x7f1d50048080] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu:  4% 11% 51% 12%  1%  1%  1%  1% 18%
+[2026-03-11 18:49:14.516]: Info: [libx264 @ 0x7f1d50048080] i8c dc,h,v,p: 100%  0%  0%  0%
+[2026-03-11 18:49:14.516]: Info: [libx264 @ 0x7f1d50048080] kb/s:898.56
+[2026-03-11 18:49:14.516]: Info: Creating encoder [libx264]
+[2026-03-11 18:49:14.516]: Info: Color coding: SDR (Rec. 601)
+[2026-03-11 18:49:14.516]: Info: Color depth: 8-bit
+[2026-03-11 18:49:14.516]: Info: Color range: JPEG
+[2026-03-11 18:49:14.516]: Info: Streaming bitrate is 1000000
+[2026-03-11 18:49:14.517]: Info: [libx264 @ 0x7f1d50048080] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+[2026-03-11 18:49:14.517]: Info: [libx264 @ 0x7f1d50048080] profile High 4:4:4 Predictive, level 4.2, 4:4:4, 8-bit
+[2026-03-11 18:49:14.532]: Info: [libx264 @ 0x7f1d50048080] frame I:1     Avg QP:51.00  size:  1603
+[2026-03-11 18:49:14.532]: Info: [libx264 @ 0x7f1d50048080] mb I  I16..4: 99.4%  0.6%  0.0%
+[2026-03-11 18:49:14.532]: Info: [libx264 @ 0x7f1d50048080] 8x8 transform intra:0.6%
+[2026-03-11 18:49:14.532]: Info: [libx264 @ 0x7f1d50048080] coded y,u,v intra: 0.2% 0.0% 0.0%
+[2026-03-11 18:49:14.532]: Info: [libx264 @ 0x7f1d50048080] i16 v,h,dc,p: 60% 37%  3%  0%
+[2026-03-11 18:49:14.532]: Info: [libx264 @ 0x7f1d50048080] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu:  1% 10% 54% 13%  0%  0%  0%  1% 21%
+[2026-03-11 18:49:14.532]: Info: [libx264 @ 0x7f1d50048080] kb/s:769.44
+[2026-03-11 18:49:14.532]: Info: Screencasting with Wayland's protocol
+[2026-03-11 18:49:14.532]: Info: Found display [wayland-1]
+[2026-03-11 18:49:14.532]: Info: Found interface: zxdg_output_manager_v1(9) version 3
+[2026-03-11 18:49:14.532]: Info: Found interface: zwlr_screencopy_manager_v1(56) version 3
+[2026-03-11 18:49:14.532]: Info: Found interface: zwp_linux_dmabuf_v1(65) version 5
+[2026-03-11 18:49:14.532]: Info: Found interface: wl_output(68) version 4
+[2026-03-11 18:49:14.533]: Info: Resolution: 1920x1080
+[2026-03-11 18:49:14.533]: Info: Name: DP-1
+[2026-03-11 18:49:14.533]: Info: Found monitor: Acer Technologies ED242QR A TBDEE0043900 (DP-1)
+[2026-03-11 18:49:14.533]: Info: Offset: 0x0
+[2026-03-11 18:49:14.533]: Info: Logical size: 1920x1080
+[2026-03-11 18:49:14.533]: Info: Selected monitor [Acer Technologies ED242QR A TBDEE0043900 (DP-1)] for streaming
+[2026-03-11 18:49:14.535]: Info: 
+[2026-03-11 18:49:14.535]: Info: // Ignore any errors mentioned above, they are not relevant. //
+[2026-03-11 18:49:14.535]: Info: 
+[2026-03-11 18:49:14.535]: Info: Found H.264 encoder: libx264 [software]
+[2026-03-11 18:49:14.535]: Info: Spawning [setsid steam steam://open/bigpicture] in ["/usr/bin"]
+[2026-03-11 18:49:14.541]: Info: Executing [Desktop]
+[2026-03-11 18:49:14.691]: Info: New streaming session started [active sessions: 1]
+[2026-03-11 18:49:14.710]: Info: CLIENT CONNECTED
+[2026-03-11 18:49:14.712]: Info: Found display [wayland-1]
+[2026-03-11 18:49:14.712]: Info: Found interface: zxdg_output_manager_v1(9) version 3
+[2026-03-11 18:49:14.712]: Info: Found interface: zwlr_screencopy_manager_v1(56) version 3
+[2026-03-11 18:49:14.712]: Info: Found interface: zwp_linux_dmabuf_v1(65) version 5
+[2026-03-11 18:49:14.712]: Info: Found interface: wl_output(68) version 4
+[2026-03-11 18:49:14.712]: Info: Resolution: 1920x1080
+[2026-03-11 18:49:14.712]: Info: Name: DP-1
+[2026-03-11 18:49:14.712]: Info: Found monitor: Acer Technologies ED242QR A TBDEE0043900 (DP-1)
+[2026-03-11 18:49:14.712]: Info: Offset: 0x0
+[2026-03-11 18:49:14.713]: Info: Logical size: 1920x1080
+[2026-03-11 18:49:14.713]: Info: -------- Start of Wayland monitor list --------
+[2026-03-11 18:49:14.713]: Info: Monitor 0 is DP-1: Acer Technologies ED242QR A TBDEE0043900 (DP-1)
+[2026-03-11 18:49:14.713]: Info: --------- End of Wayland monitor list ---------
+[2026-03-11 18:49:14.713]: Info: Screencasting with Wayland's protocol
+[2026-03-11 18:49:14.713]: Info: Found display [wayland-1]
+[2026-03-11 18:49:14.713]: Info: Found interface: zxdg_output_manager_v1(9) version 3
+[2026-03-11 18:49:14.713]: Info: Found interface: zwlr_screencopy_manager_v1(56) version 3
+[2026-03-11 18:49:14.713]: Info: Found interface: zwp_linux_dmabuf_v1(65) version 5
+[2026-03-11 18:49:14.713]: Info: Found interface: wl_output(68) version 4
+[2026-03-11 18:49:14.713]: Info: Resolution: 1920x1080
+[2026-03-11 18:49:14.713]: Info: Name: DP-1
+[2026-03-11 18:49:14.713]: Info: Found monitor: Acer Technologies ED242QR A TBDEE0043900 (DP-1)
+[2026-03-11 18:49:14.713]: Info: Offset: 0x0
+[2026-03-11 18:49:14.713]: Info: Logical size: 1920x1080
+[2026-03-11 18:49:14.713]: Info: Selected monitor [Acer Technologies ED242QR A TBDEE0043900 (DP-1)] for streaming
+[2026-03-11 18:49:14.738]: Info: Creating encoder [libx264]
+[2026-03-11 18:49:14.738]: Info: Color coding: SDR (Rec. 601)
+[2026-03-11 18:49:14.738]: Info: Color depth: 8-bit
+[2026-03-11 18:49:14.738]: Info: Color range: MPEG
+[2026-03-11 18:49:14.738]: Info: Streaming bitrate is 28588000
+[2026-03-11 18:49:14.738]: Info: [libx264 @ 0x7f1d443d00c0] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+[2026-03-11 18:49:14.739]: Info: [libx264 @ 0x7f1d443d00c0] profile High, level 5.1, 4:2:0, 8-bit
+[2026-03-11 18:49:14.741]: Info: Minimum FPS target set to ~45fps (22.2222ms)
+[2026-03-11 18:49:15.021]: Info: Gamepad 0 will be Xbox One controller (default)
+[2026-03-11 18:49:15.021]: Info: Gamepad 1 will be Xbox One controller (default)
+[2026-03-11 18:49:15.021]: Info: Gamepad 2 will be Xbox One controller (default)
+[2026-03-11 18:49:15.177]: Info: Setting default sink to: [sink-sunshine-stereo]
+[2026-03-11 18:49:15.177]: Info: Found default monitor by name: sink-sunshine-stereo.monitor
+[2026-03-11 18:49:15.191]: Info: Opus initialized: 48 kHz, 2 channels, 512 kbps (total), LOWDELAY
+[2026-03-11 18:50:09.717]: Info: CLIENT DISCONNECTED
+[2026-03-11 18:50:09.719]: Info: Setting default sink to: [alsa_output.pci-0000_07_00.4.analog-stereo]
+[2026-03-11 18:50:09.722]: Info: [libx264 @ 0x7f1d443d00c0] frame I:6     Avg QP:25.98  size: 47384
+[2026-03-11 18:50:09.722]: Info: [libx264 @ 0x7f1d443d00c0] frame P:4937  Avg QP: 1.58  size: 16784
+[2026-03-11 18:50:09.722]: Info: [libx264 @ 0x7f1d443d00c0] mb I  I16..4: 69.0% 24.0%  7.0%
+[2026-03-11 18:50:09.722]: Info: [libx264 @ 0x7f1d443d00c0] mb P  I16..4:  0.2%  0.1%  0.0%  P16..4: 29.7%  0.0%  0.0%  0.0%  0.0%    skip:70.0%
+[2026-03-11 18:50:09.722]: Info: [libx264 @ 0x7f1d443d00c0] 8x8 transform intra:25.2% inter:6.3%
+[2026-03-11 18:50:09.722]: Info: [libx264 @ 0x7f1d443d00c0] coded y,uvDC,uvAC intra: 30.7% 34.9% 26.6% inter: 12.8% 5.0% 4.8%
+[2026-03-11 18:50:09.722]: Info: [libx264 @ 0x7f1d443d00c0] i16 v,h,dc,p: 41% 47%  3%  8%
+[2026-03-11 18:50:09.722]: Info: [libx264 @ 0x7f1d443d00c0] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 12% 23% 22%  8%  7%  5%  9%  4% 11%
+[2026-03-11 18:50:09.722]: Info: [libx264 @ 0x7f1d443d00c0] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 24% 34% 11%  7%  5%  4%  5%  4%  7%
+[2026-03-11 18:50:09.722]: Info: [libx264 @ 0x7f1d443d00c0] i8c dc,h,v,p: 43% 45%  7%  5%
+[2026-03-11 18:50:09.722]: Info: [libx264 @ 0x7f1d443d00c0] Weighted P-Frames: Y:0.0% UV:0.0%
+[2026-03-11 18:50:09.722]: Info: [libx264 @ 0x7f1d443d00c0] kb/s:12111.50
+[2026-03-11 18:50:22.409]: Info: // Testing for available encoders, this may generate errors. You can safely ignore those errors. //
+[2026-03-11 18:50:22.409]: Info: Trying encoder [nvenc]
+[2026-03-11 18:50:22.409]: Info: Screencasting with Wayland's protocol
+[2026-03-11 18:50:22.409]: Info: Found display [wayland-1]
+[2026-03-11 18:50:22.409]: Info: Found interface: zxdg_output_manager_v1(9) version 3
+[2026-03-11 18:50:22.409]: Info: Found interface: zwlr_screencopy_manager_v1(56) version 3
+[2026-03-11 18:50:22.409]: Info: Found interface: zwp_linux_dmabuf_v1(65) version 5
+[2026-03-11 18:50:22.409]: Info: Found interface: wl_output(68) version 4
+[2026-03-11 18:50:22.409]: Info: Resolution: 1920x1080
+[2026-03-11 18:50:22.409]: Info: Name: DP-1
+[2026-03-11 18:50:22.409]: Info: Found monitor: Acer Technologies ED242QR A TBDEE0043900 (DP-1)
+[2026-03-11 18:50:22.409]: Info: Offset: 0x0
+[2026-03-11 18:50:22.409]: Info: Logical size: 1920x1080
+[2026-03-11 18:50:22.409]: Info: Selected monitor [Acer Technologies ED242QR A TBDEE0043900 (DP-1)] for streaming
+[2026-03-11 18:50:22.409]: Info: Creating encoder [h264_nvenc]
+[2026-03-11 18:50:22.409]: Info: Color coding: SDR (Rec. 601)
+[2026-03-11 18:50:22.409]: Info: Color depth: 8-bit
+[2026-03-11 18:50:22.409]: Info: Color range: JPEG
+[2026-03-11 18:50:22.479]: Info: Streaming bitrate is 1000000
+[2026-03-11 18:50:22.498]: Error: Couldn't scale frame: Invalid argument
+[2026-03-11 18:50:22.553]: Info: Encoder [nvenc] failed
+[2026-03-11 18:50:22.553]: Info: Trying encoder [vaapi]
+[2026-03-11 18:50:22.553]: Info: Screencasting with Wayland's protocol
+[2026-03-11 18:50:22.553]: Info: Found display [wayland-1]
+[2026-03-11 18:50:22.553]: Info: Found interface: zxdg_output_manager_v1(9) version 3
+[2026-03-11 18:50:22.553]: Info: Found interface: zwlr_screencopy_manager_v1(56) version 3
+[2026-03-11 18:50:22.553]: Info: Found interface: zwp_linux_dmabuf_v1(65) version 5
+[2026-03-11 18:50:22.553]: Info: Found interface: wl_output(68) version 4
+[2026-03-11 18:50:22.553]: Info: Resolution: 1920x1080
+[2026-03-11 18:50:22.553]: Info: Name: DP-1
+[2026-03-11 18:50:22.553]: Info: Found monitor: Acer Technologies ED242QR A TBDEE0043900 (DP-1)
+[2026-03-11 18:50:22.553]: Info: Offset: 0x0
+[2026-03-11 18:50:22.553]: Info: Logical size: 1920x1080
+[2026-03-11 18:50:22.553]: Info: Selected monitor [Acer Technologies ED242QR A TBDEE0043900 (DP-1)] for streaming
+[2026-03-11 18:50:22.553]: Info: Creating encoder [h264_vaapi]
+[2026-03-11 18:50:22.553]: Info: Color coding: SDR (Rec. 601)
+[2026-03-11 18:50:22.553]: Info: Color depth: 8-bit
+[2026-03-11 18:50:22.553]: Info: Color range: JPEG
+[2026-03-11 18:50:22.710]: Info: vaapi vendor: VA-API NVDEC driver [direct backend]
+[2026-03-11 18:50:22.710]: Info: Streaming bitrate is 1000000
+[2026-03-11 18:50:22.710]: Error: [h264_vaapi @ 0x7f1d50048080] No usable encoding entrypoint found for profile VAProfileH264High (7).
+[2026-03-11 18:50:22.756]: Error: Could not open codec [h264_vaapi]: Function not implemented
+[2026-03-11 18:50:22.757]: Info: Encoder [vaapi] failed
+[2026-03-11 18:50:22.757]: Info: Trying encoder [software]
+[2026-03-11 18:50:22.757]: Info: Screencasting with Wayland's protocol
+[2026-03-11 18:50:22.757]: Info: Found display [wayland-1]
+[2026-03-11 18:50:22.757]: Info: Found interface: zxdg_output_manager_v1(9) version 3
+[2026-03-11 18:50:22.757]: Info: Found interface: zwlr_screencopy_manager_v1(56) version 3
+[2026-03-11 18:50:22.757]: Info: Found interface: zwp_linux_dmabuf_v1(65) version 5
+[2026-03-11 18:50:22.757]: Info: Found interface: wl_output(68) version 4
+[2026-03-11 18:50:22.757]: Info: Resolution: 1920x1080
+[2026-03-11 18:50:22.757]: Info: Name: DP-1
+[2026-03-11 18:50:22.757]: Info: Found monitor: Acer Technologies ED242QR A TBDEE0043900 (DP-1)
+[2026-03-11 18:50:22.757]: Info: Offset: 0x0
+[2026-03-11 18:50:22.757]: Info: Logical size: 1920x1080
+[2026-03-11 18:50:22.757]: Info: Selected monitor [Acer Technologies ED242QR A TBDEE0043900 (DP-1)] for streaming
+[2026-03-11 18:50:22.759]: Info: Creating encoder [libx264]
+[2026-03-11 18:50:22.759]: Info: Color coding: SDR (Rec. 601)
+[2026-03-11 18:50:22.759]: Info: Color depth: 8-bit
+[2026-03-11 18:50:22.759]: Info: Color range: JPEG
+[2026-03-11 18:50:22.759]: Info: Streaming bitrate is 1000000
+[2026-03-11 18:50:22.760]: Info: [libx264 @ 0x7f1d50048080] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+[2026-03-11 18:50:22.760]: Info: [libx264 @ 0x7f1d50048080] profile High, level 4.2, 4:2:0, 8-bit
+[2026-03-11 18:50:22.771]: Info: [libx264 @ 0x7f1d50048080] frame I:1     Avg QP:51.00  size:  2682
+[2026-03-11 18:50:22.771]: Info: [libx264 @ 0x7f1d50048080] mb I  I16..4: 97.9%  2.1%  0.0%
+[2026-03-11 18:50:22.771]: Info: [libx264 @ 0x7f1d50048080] 8x8 transform intra:2.1%
+[2026-03-11 18:50:22.771]: Info: [libx264 @ 0x7f1d50048080] coded y,uvDC,uvAC intra: 0.5% 6.5% 0.0%
+[2026-03-11 18:50:22.771]: Info: [libx264 @ 0x7f1d50048080] i16 v,h,dc,p: 76% 22%  2%  0%
+[2026-03-11 18:50:22.771]: Info: [libx264 @ 0x7f1d50048080] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 13%  8% 36% 16%  3%  3%  4%  3% 15%
+[2026-03-11 18:50:22.771]: Info: [libx264 @ 0x7f1d50048080] i8c dc,h,v,p: 98%  1%  1%  0%
+[2026-03-11 18:50:22.771]: Info: [libx264 @ 0x7f1d50048080] kb/s:1287.36
+[2026-03-11 18:50:22.771]: Info: Creating encoder [libx264]
+[2026-03-11 18:50:22.771]: Info: Color coding: SDR (Rec. 601)
+[2026-03-11 18:50:22.771]: Info: Color depth: 8-bit
+[2026-03-11 18:50:22.771]: Info: Color range: JPEG
+[2026-03-11 18:50:22.771]: Info: Streaming bitrate is 1000000
+[2026-03-11 18:50:22.772]: Info: [libx264 @ 0x7f1d50048080] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+[2026-03-11 18:50:22.772]: Info: [libx264 @ 0x7f1d50048080] profile High 4:4:4 Predictive, level 4.2, 4:4:4, 8-bit
+[2026-03-11 18:50:22.787]: Info: [libx264 @ 0x7f1d50048080] frame I:1     Avg QP:51.00  size:  1733
+[2026-03-11 18:50:22.787]: Info: [libx264 @ 0x7f1d50048080] mb I  I16..4: 99.3%  0.7%  0.0%
+[2026-03-11 18:50:22.787]: Info: [libx264 @ 0x7f1d50048080] 8x8 transform intra:0.7%
+[2026-03-11 18:50:22.787]: Info: [libx264 @ 0x7f1d50048080] coded y,u,v intra: 0.2% 0.0% 0.0%
+[2026-03-11 18:50:22.787]: Info: [libx264 @ 0x7f1d50048080] i16 v,h,dc,p: 79% 17%  3%  0%
+[2026-03-11 18:50:22.787]: Info: [libx264 @ 0x7f1d50048080] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu:  1% 31% 50%  6%  0%  0%  1%  1% 11%
+[2026-03-11 18:50:22.787]: Info: [libx264 @ 0x7f1d50048080] kb/s:831.84
+[2026-03-11 18:50:22.787]: Info: Screencasting with Wayland's protocol
+[2026-03-11 18:50:22.787]: Info: Found display [wayland-1]
+[2026-03-11 18:50:22.787]: Info: Found interface: zxdg_output_manager_v1(9) version 3
+[2026-03-11 18:50:22.787]: Info: Found interface: zwlr_screencopy_manager_v1(56) version 3
+[2026-03-11 18:50:22.787]: Info: Found interface: zwp_linux_dmabuf_v1(65) version 5
+[2026-03-11 18:50:22.787]: Info: Found interface: wl_output(68) version 4
+[2026-03-11 18:50:22.788]: Info: Resolution: 1920x1080
+[2026-03-11 18:50:22.788]: Info: Name: DP-1
+[2026-03-11 18:50:22.788]: Info: Found monitor: Acer Technologies ED242QR A TBDEE0043900 (DP-1)
+[2026-03-11 18:50:22.788]: Info: Offset: 0x0
+[2026-03-11 18:50:22.788]: Info: Logical size: 1920x1080
+[2026-03-11 18:50:22.788]: Info: Selected monitor [Acer Technologies ED242QR A TBDEE0043900 (DP-1)] for streaming
+[2026-03-11 18:50:22.790]: Info: 
+[2026-03-11 18:50:22.790]: Info: // Ignore any errors mentioned above, they are not relevant. //
+[2026-03-11 18:50:22.790]: Info: 
+[2026-03-11 18:50:22.790]: Info: Found H.264 encoder: libx264 [software]
+[2026-03-11 18:50:22.889]: Info: New streaming session started [active sessions: 1]
+[2026-03-11 18:50:22.909]: Info: CLIENT CONNECTED
+[2026-03-11 18:50:22.911]: Info: Found display [wayland-1]
+[2026-03-11 18:50:22.911]: Info: Found interface: zxdg_output_manager_v1(9) version 3
+[2026-03-11 18:50:22.911]: Info: Found interface: zwlr_screencopy_manager_v1(56) version 3
+[2026-03-11 18:50:22.911]: Info: Found interface: zwp_linux_dmabuf_v1(65) version 5
+[2026-03-11 18:50:22.911]: Info: Found interface: wl_output(68) version 4
+[2026-03-11 18:50:22.911]: Info: Resolution: 1920x1080
+[2026-03-11 18:50:22.911]: Info: Name: DP-1
+[2026-03-11 18:50:22.911]: Info: Found monitor: Acer Technologies ED242QR A TBDEE0043900 (DP-1)
+[2026-03-11 18:50:22.911]: Info: Offset: 0x0
+[2026-03-11 18:50:22.911]: Info: Logical size: 1920x1080
+[2026-03-11 18:50:22.911]: Info: -------- Start of Wayland monitor list --------
+[2026-03-11 18:50:22.911]: Info: Monitor 0 is DP-1: Acer Technologies ED242QR A TBDEE0043900 (DP-1)
+[2026-03-11 18:50:22.911]: Info: --------- End of Wayland monitor list ---------
+[2026-03-11 18:50:22.911]: Info: Screencasting with Wayland's protocol
+[2026-03-11 18:50:22.911]: Info: Found display [wayland-1]
+[2026-03-11 18:50:22.911]: Info: Found interface: zxdg_output_manager_v1(9) version 3
+[2026-03-11 18:50:22.911]: Info: Found interface: zwlr_screencopy_manager_v1(56) version 3
+[2026-03-11 18:50:22.911]: Info: Found interface: zwp_linux_dmabuf_v1(65) version 5
+[2026-03-11 18:50:22.911]: Info: Found interface: wl_output(68) version 4
+[2026-03-11 18:50:22.911]: Info: Resolution: 1920x1080
+[2026-03-11 18:50:22.911]: Info: Name: DP-1
+[2026-03-11 18:50:22.911]: Info: Found monitor: Acer Technologies ED242QR A TBDEE0043900 (DP-1)
+[2026-03-11 18:50:22.911]: Info: Offset: 0x0
+[2026-03-11 18:50:22.911]: Info: Logical size: 1920x1080
+[2026-03-11 18:50:22.911]: Info: Selected monitor [Acer Technologies ED242QR A TBDEE0043900 (DP-1)] for streaming
+[2026-03-11 18:50:22.937]: Info: Creating encoder [libx264]
+[2026-03-11 18:50:22.937]: Info: Color coding: SDR (Rec. 601)
+[2026-03-11 18:50:22.937]: Info: Color depth: 8-bit
+[2026-03-11 18:50:22.937]: Info: Color range: MPEG
+[2026-03-11 18:50:22.937]: Info: Streaming bitrate is 28588000
+[2026-03-11 18:50:22.937]: Info: [libx264 @ 0x7f1d2c3cb140] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+[2026-03-11 18:50:22.938]: Info: [libx264 @ 0x7f1d2c3cb140] profile High, level 5.1, 4:2:0, 8-bit
+[2026-03-11 18:50:22.939]: Info: Minimum FPS target set to ~45fps (22.2222ms)
+[2026-03-11 18:50:23.221]: Info: Gamepad 0 will be Xbox One controller (default)
+[2026-03-11 18:50:23.221]: Info: Gamepad 1 will be Xbox One controller (default)
+[2026-03-11 18:50:23.221]: Info: Gamepad 2 will be Xbox One controller (default)
+[2026-03-11 18:50:23.374]: Info: Setting default sink to: [sink-sunshine-stereo]
+[2026-03-11 18:50:23.374]: Info: Found default monitor by name: sink-sunshine-stereo.monitor
+[2026-03-11 18:50:23.386]: Info: Opus initialized: 48 kHz, 2 channels, 512 kbps (total), LOWDELAY
+[2026-03-11 18:50:30.841]: Info: CLIENT DISCONNECTED
+[2026-03-11 18:50:30.845]: Info: Setting default sink to: [alsa_output.pci-0000_07_00.4.analog-stereo]
+[2026-03-11 18:50:30.849]: Info: [libx264 @ 0x7f1d2c3cb140] frame I:6     Avg QP:27.59  size: 46958
+[2026-03-11 18:50:30.849]: Info: [libx264 @ 0x7f1d2c3cb140] frame P:708   Avg QP: 3.83  size: 13976
+[2026-03-11 18:50:30.849]: Info: [libx264 @ 0x7f1d2c3cb140] mb I  I16..4: 74.7% 19.5%  5.8%
+[2026-03-11 18:50:30.849]: Info: [libx264 @ 0x7f1d2c3cb140] mb P  I16..4:  0.7%  0.1%  0.0%  P16..4: 27.3%  0.0%  0.0%  0.0%  0.0%    skip:71.9%
+[2026-03-11 18:50:30.849]: Info: [libx264 @ 0x7f1d2c3cb140] 8x8 transform intra:13.6% inter:9.6%
+[2026-03-11 18:50:30.849]: Info: [libx264 @ 0x7f1d2c3cb140] coded y,uvDC,uvAC intra: 18.4% 17.8% 11.1% inter: 11.0% 3.7% 2.8%
+[2026-03-11 18:50:30.849]: Info: [libx264 @ 0x7f1d2c3cb140] i16 v,h,dc,p: 25% 71%  2%  2%
+[2026-03-11 18:50:30.849]: Info: [libx264 @ 0x7f1d2c3cb140] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 13% 32% 17%  6%  5%  3%  8%  4% 12%
+[2026-03-11 18:50:30.849]: Info: [libx264 @ 0x7f1d2c3cb140] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 22% 43% 13%  4%  4%  3%  4%  2%  5%
+[2026-03-11 18:50:30.849]: Info: [libx264 @ 0x7f1d2c3cb140] i8c dc,h,v,p: 33% 60%  6%  2%
+[2026-03-11 18:50:30.849]: Info: [libx264 @ 0x7f1d2c3cb140] Weighted P-Frames: Y:0.0% UV:0.0%
+[2026-03-11 18:50:30.849]: Info: [libx264 @ 0x7f1d2c3cb140] kb/s:10261.94
+[2026-03-11 18:50:40.348]: Info: Executing Undo Cmd: [setsid steam steam://close/bigpicture]
+[2026-03-11 18:50:45.424]: Info: // Testing for available encoders, this may generate errors. You can safely ignore those errors. //
+[2026-03-11 18:50:45.424]: Info: Trying encoder [nvenc]
+[2026-03-11 18:50:45.424]: Info: Screencasting with Wayland's protocol
+[2026-03-11 18:50:45.424]: Info: Found display [wayland-1]
+[2026-03-11 18:50:45.424]: Info: Found interface: zxdg_output_manager_v1(9) version 3
+[2026-03-11 18:50:45.424]: Info: Found interface: zwlr_screencopy_manager_v1(56) version 3
+[2026-03-11 18:50:45.424]: Info: Found interface: zwp_linux_dmabuf_v1(65) version 5
+[2026-03-11 18:50:45.424]: Info: Found interface: wl_output(68) version 4
+[2026-03-11 18:50:45.424]: Info: Resolution: 1920x1080
+[2026-03-11 18:50:45.424]: Info: Name: DP-1
+[2026-03-11 18:50:45.424]: Info: Found monitor: Acer Technologies ED242QR A TBDEE0043900 (DP-1)
+[2026-03-11 18:50:45.424]: Info: Offset: 0x0
+[2026-03-11 18:50:45.424]: Info: Logical size: 1920x1080
+[2026-03-11 18:50:45.424]: Info: Selected monitor [Acer Technologies ED242QR A TBDEE0043900 (DP-1)] for streaming
+[2026-03-11 18:50:45.424]: Info: Creating encoder [h264_nvenc]
+[2026-03-11 18:50:45.424]: Info: Color coding: SDR (Rec. 601)
+[2026-03-11 18:50:45.424]: Info: Color depth: 8-bit
+[2026-03-11 18:50:45.424]: Info: Color range: JPEG
+[2026-03-11 18:50:45.502]: Info: Streaming bitrate is 1000000
+[2026-03-11 18:50:45.521]: Error: Couldn't scale frame: Invalid argument
+[2026-03-11 18:50:45.577]: Info: Encoder [nvenc] failed
+[2026-03-11 18:50:45.578]: Info: Trying encoder [vaapi]
+[2026-03-11 18:50:45.578]: Info: Screencasting with Wayland's protocol
+[2026-03-11 18:50:45.578]: Info: Found display [wayland-1]
+[2026-03-11 18:50:45.578]: Info: Found interface: zxdg_output_manager_v1(9) version 3
+[2026-03-11 18:50:45.578]: Info: Found interface: zwlr_screencopy_manager_v1(56) version 3
+[2026-03-11 18:50:45.578]: Info: Found interface: zwp_linux_dmabuf_v1(65) version 5
+[2026-03-11 18:50:45.578]: Info: Found interface: wl_output(68) version 4
+[2026-03-11 18:50:45.578]: Info: Resolution: 1920x1080
+[2026-03-11 18:50:45.578]: Info: Name: DP-1
+[2026-03-11 18:50:45.578]: Info: Found monitor: Acer Technologies ED242QR A TBDEE0043900 (DP-1)
+[2026-03-11 18:50:45.578]: Info: Offset: 0x0
+[2026-03-11 18:50:45.578]: Info: Logical size: 1920x1080
+[2026-03-11 18:50:45.578]: Info: Selected monitor [Acer Technologies ED242QR A TBDEE0043900 (DP-1)] for streaming
+[2026-03-11 18:50:45.578]: Info: Creating encoder [h264_vaapi]
+[2026-03-11 18:50:45.578]: Info: Color coding: SDR (Rec. 601)
+[2026-03-11 18:50:45.578]: Info: Color depth: 8-bit
+[2026-03-11 18:50:45.578]: Info: Color range: JPEG
+[2026-03-11 18:50:45.735]: Info: vaapi vendor: VA-API NVDEC driver [direct backend]
+[2026-03-11 18:50:45.735]: Info: Streaming bitrate is 1000000
+[2026-03-11 18:50:45.735]: Error: [h264_vaapi @ 0x7f1d50048080] No usable encoding entrypoint found for profile VAProfileH264High (7).
+[2026-03-11 18:50:45.783]: Error: Could not open codec [h264_vaapi]: Function not implemented
+[2026-03-11 18:50:45.784]: Info: Encoder [vaapi] failed
+[2026-03-11 18:50:45.784]: Info: Trying encoder [software]
+[2026-03-11 18:50:45.784]: Info: Screencasting with Wayland's protocol
+[2026-03-11 18:50:45.784]: Info: Found display [wayland-1]
+[2026-03-11 18:50:45.784]: Info: Found interface: zxdg_output_manager_v1(9) version 3
+[2026-03-11 18:50:45.784]: Info: Found interface: zwlr_screencopy_manager_v1(56) version 3
+[2026-03-11 18:50:45.784]: Info: Found interface: zwp_linux_dmabuf_v1(65) version 5
+[2026-03-11 18:50:45.784]: Info: Found interface: wl_output(68) version 4
+[2026-03-11 18:50:45.784]: Info: Resolution: 1920x1080
+[2026-03-11 18:50:45.784]: Info: Name: DP-1
+[2026-03-11 18:50:45.784]: Info: Found monitor: Acer Technologies ED242QR A TBDEE0043900 (DP-1)
+[2026-03-11 18:50:45.784]: Info: Offset: 0x0
+[2026-03-11 18:50:45.784]: Info: Logical size: 1920x1080
+[2026-03-11 18:50:45.784]: Info: Selected monitor [Acer Technologies ED242QR A TBDEE0043900 (DP-1)] for streaming
+[2026-03-11 18:50:45.787]: Info: Creating encoder [libx264]
+[2026-03-11 18:50:45.787]: Info: Color coding: SDR (Rec. 601)
+[2026-03-11 18:50:45.787]: Info: Color depth: 8-bit
+[2026-03-11 18:50:45.787]: Info: Color range: JPEG
+[2026-03-11 18:50:45.787]: Info: Streaming bitrate is 1000000
+[2026-03-11 18:50:45.787]: Info: [libx264 @ 0x7f1d50048080] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+[2026-03-11 18:50:45.788]: Info: [libx264 @ 0x7f1d50048080] profile High, level 4.2, 4:2:0, 8-bit
+[2026-03-11 18:50:45.799]: Info: [libx264 @ 0x7f1d50048080] frame I:1     Avg QP:51.00  size:  2746
+[2026-03-11 18:50:45.799]: Info: [libx264 @ 0x7f1d50048080] mb I  I16..4: 97.6%  2.4%  0.0%
+[2026-03-11 18:50:45.799]: Info: [libx264 @ 0x7f1d50048080] 8x8 transform intra:2.4%
+[2026-03-11 18:50:45.799]: Info: [libx264 @ 0x7f1d50048080] coded y,uvDC,uvAC intra: 0.6% 5.9% 0.0%
+[2026-03-11 18:50:45.799]: Info: [libx264 @ 0x7f1d50048080] i16 v,h,dc,p: 76% 22%  2%  0%
+[2026-03-11 18:50:45.799]: Info: [libx264 @ 0x7f1d50048080] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 12% 12% 35% 18%  2%  3%  4%  2% 12%
+[2026-03-11 18:50:45.799]: Info: [libx264 @ 0x7f1d50048080] i8c dc,h,v,p: 98%  2%  1%  0%
+[2026-03-11 18:50:45.799]: Info: [libx264 @ 0x7f1d50048080] kb/s:1318.08
+[2026-03-11 18:50:45.799]: Info: Creating encoder [libx264]
+[2026-03-11 18:50:45.799]: Info: Color coding: SDR (Rec. 601)
+[2026-03-11 18:50:45.799]: Info: Color depth: 8-bit
+[2026-03-11 18:50:45.799]: Info: Color range: JPEG
+[2026-03-11 18:50:45.799]: Info: Streaming bitrate is 1000000
+[2026-03-11 18:50:45.799]: Info: [libx264 @ 0x7f1d50048080] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+[2026-03-11 18:50:45.800]: Info: [libx264 @ 0x7f1d50048080] profile High 4:4:4 Predictive, level 4.2, 4:4:4, 8-bit
+[2026-03-11 18:50:45.815]: Info: [libx264 @ 0x7f1d50048080] frame I:1     Avg QP:51.00  size:  1532
+[2026-03-11 18:50:45.815]: Info: [libx264 @ 0x7f1d50048080] mb I  I16..4: 99.6%  0.4%  0.0%
+[2026-03-11 18:50:45.815]: Info: [libx264 @ 0x7f1d50048080] 8x8 transform intra:0.4%
+[2026-03-11 18:50:45.815]: Info: [libx264 @ 0x7f1d50048080] coded y,u,v intra: 0.1% 0.0% 0.0%
+[2026-03-11 18:50:45.815]: Info: [libx264 @ 0x7f1d50048080] i16 v,h,dc,p: 86% 11%  3%  0%
+[2026-03-11 18:50:45.815]: Info: [libx264 @ 0x7f1d50048080] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu:  5% 12% 51% 12%  0%  0%  2%  1% 17%
+[2026-03-11 18:50:45.815]: Info: [libx264 @ 0x7f1d50048080] kb/s:735.36
+[2026-03-11 18:50:45.815]: Info: Screencasting with Wayland's protocol
+[2026-03-11 18:50:45.815]: Info: Found display [wayland-1]
+[2026-03-11 18:50:45.815]: Info: Found interface: zxdg_output_manager_v1(9) version 3
+[2026-03-11 18:50:45.815]: Info: Found interface: zwlr_screencopy_manager_v1(56) version 3
+[2026-03-11 18:50:45.815]: Info: Found interface: zwp_linux_dmabuf_v1(65) version 5
+[2026-03-11 18:50:45.815]: Info: Found interface: wl_output(68) version 4
+[2026-03-11 18:50:45.816]: Info: Resolution: 1920x1080
+[2026-03-11 18:50:45.816]: Info: Name: DP-1
+[2026-03-11 18:50:45.816]: Info: Found monitor: Acer Technologies ED242QR A TBDEE0043900 (DP-1)
+[2026-03-11 18:50:45.816]: Info: Offset: 0x0
+[2026-03-11 18:50:45.816]: Info: Logical size: 1920x1080
+[2026-03-11 18:50:45.816]: Info: Selected monitor [Acer Technologies ED242QR A TBDEE0043900 (DP-1)] for streaming
+[2026-03-11 18:50:45.818]: Info: 
+[2026-03-11 18:50:45.818]: Info: // Ignore any errors mentioned above, they are not relevant. //
+[2026-03-11 18:50:45.818]: Info: 
+[2026-03-11 18:50:45.818]: Info: Found H.264 encoder: libx264 [software]
+[2026-03-11 18:50:45.818]: Info: Spawning [setsid steam steam://open/bigpicture] in ["/usr/bin"]
+[2026-03-11 18:50:45.825]: Info: Executing [Desktop]
+[2026-03-11 18:50:45.874]: Info: New streaming session started [active sessions: 1]
+[2026-03-11 18:50:45.895]: Info: CLIENT CONNECTED
+[2026-03-11 18:50:45.896]: Info: Found display [wayland-1]
+[2026-03-11 18:50:45.896]: Info: Found interface: zxdg_output_manager_v1(9) version 3
+[2026-03-11 18:50:45.897]: Info: Found interface: zwlr_screencopy_manager_v1(56) version 3
+[2026-03-11 18:50:45.897]: Info: Found interface: zwp_linux_dmabuf_v1(65) version 5
+[2026-03-11 18:50:45.897]: Info: Found interface: wl_output(68) version 4
+[2026-03-11 18:50:45.897]: Info: Resolution: 1920x1080
+[2026-03-11 18:50:45.897]: Info: Name: DP-1
+[2026-03-11 18:50:45.897]: Info: Found monitor: Acer Technologies ED242QR A TBDEE0043900 (DP-1)
+[2026-03-11 18:50:45.897]: Info: Offset: 0x0
+[2026-03-11 18:50:45.897]: Info: Logical size: 1920x1080
+[2026-03-11 18:50:45.897]: Info: -------- Start of Wayland monitor list --------
+[2026-03-11 18:50:45.897]: Info: Monitor 0 is DP-1: Acer Technologies ED242QR A TBDEE0043900 (DP-1)
+[2026-03-11 18:50:45.897]: Info: --------- End of Wayland monitor list ---------
+[2026-03-11 18:50:45.897]: Info: Screencasting with Wayland's protocol
+[2026-03-11 18:50:45.897]: Info: Found display [wayland-1]
+[2026-03-11 18:50:45.897]: Info: Found interface: zxdg_output_manager_v1(9) version 3
+[2026-03-11 18:50:45.897]: Info: Found interface: zwlr_screencopy_manager_v1(56) version 3
+[2026-03-11 18:50:45.897]: Info: Found interface: zwp_linux_dmabuf_v1(65) version 5
+[2026-03-11 18:50:45.897]: Info: Found interface: wl_output(68) version 4
+[2026-03-11 18:50:45.897]: Info: Resolution: 1920x1080
+[2026-03-11 18:50:45.897]: Info: Name: DP-1
+[2026-03-11 18:50:45.897]: Info: Found monitor: Acer Technologies ED242QR A TBDEE0043900 (DP-1)
+[2026-03-11 18:50:45.897]: Info: Offset: 0x0
+[2026-03-11 18:50:45.897]: Info: Logical size: 1920x1080
+[2026-03-11 18:50:45.897]: Info: Selected monitor [Acer Technologies ED242QR A TBDEE0043900 (DP-1)] for streaming
+[2026-03-11 18:50:45.923]: Info: Creating encoder [libx264]
+[2026-03-11 18:50:45.923]: Info: Color coding: SDR (Rec. 601)
+[2026-03-11 18:50:45.923]: Info: Color depth: 8-bit
+[2026-03-11 18:50:45.923]: Info: Color range: MPEG
+[2026-03-11 18:50:45.923]: Info: Streaming bitrate is 28588000
+[2026-03-11 18:50:45.923]: Info: [libx264 @ 0x7f1d300099c0] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+[2026-03-11 18:50:45.924]: Info: [libx264 @ 0x7f1d300099c0] profile High, level 5.1, 4:2:0, 8-bit
+[2026-03-11 18:50:45.925]: Info: Minimum FPS target set to ~45fps (22.2222ms)
+[2026-03-11 18:50:46.200]: Info: Gamepad 0 will be Xbox One controller (default)
+[2026-03-11 18:50:46.201]: Info: Gamepad 1 will be Xbox One controller (default)
+[2026-03-11 18:50:46.201]: Info: Gamepad 2 will be Xbox One controller (default)
+[2026-03-11 18:50:46.361]: Info: Setting default sink to: [sink-sunshine-stereo]
+[2026-03-11 18:50:46.361]: Info: Found default monitor by name: sink-sunshine-stereo.monitor
+[2026-03-11 18:50:46.377]: Info: Opus initialized: 48 kHz, 2 channels, 512 kbps (total), LOWDELAY
+[2026-03-11 19:29:33.306]: Info: CLIENT DISCONNECTED
+[2026-03-11 19:29:33.310]: Info: Setting default sink to: [alsa_output.pci-0000_07_00.4.analog-stereo]
+[2026-03-11 19:29:33.311]: Info: [libx264 @ 0x7f1d300099c0] frame I:35    Avg QP:14.01  size: 46541
+[2026-03-11 19:29:33.311]: Info: [libx264 @ 0x7f1d300099c0] frame P:138978 Avg QP:10.20  size: 28462
+[2026-03-11 19:29:33.311]: Info: [libx264 @ 0x7f1d300099c0] mb I  I16..4: 56.5% 38.5%  5.0%
+[2026-03-11 19:29:33.311]: Info: [libx264 @ 0x7f1d300099c0] mb P  I16..4: 13.8%  8.8%  0.3%  P16..4: 35.2%  0.0%  0.0%  0.0%  0.0%    skip:41.8%
+[2026-03-11 19:29:33.311]: Info: [libx264 @ 0x7f1d300099c0] 8x8 transform intra:38.4% inter:31.1%
+[2026-03-11 19:29:33.311]: Info: [libx264 @ 0x7f1d300099c0] coded y,uvDC,uvAC intra: 39.2% 46.2% 33.4% inter: 14.2% 9.1% 2.6%
+[2026-03-11 19:29:33.311]: Info: [libx264 @ 0x7f1d300099c0] i16 v,h,dc,p: 71% 12% 13%  4%
+[2026-03-11 19:29:33.311]: Info: [libx264 @ 0x7f1d300099c0] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 13% 17% 38%  6%  6%  5%  6%  4%  6%
+[2026-03-11 19:29:33.311]: Info: [libx264 @ 0x7f1d300099c0] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 24% 24% 17%  6%  6%  5%  7%  4%  7%
+[2026-03-11 19:29:33.311]: Info: [libx264 @ 0x7f1d300099c0] i8c dc,h,v,p: 61% 18% 17%  5%
+[2026-03-11 19:29:33.311]: Info: [libx264 @ 0x7f1d300099c0] Weighted P-Frames: Y:2.2% UV:0.4%
+[2026-03-11 19:29:33.311]: Info: [libx264 @ 0x7f1d300099c0] kb/s:20495.82
+[2026-03-11 20:07:10.004]: Error: Client failure: Daemon connection failed

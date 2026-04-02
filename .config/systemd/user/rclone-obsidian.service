@@ -5,4 +5,6 @@ Wants=network-online.target
 
 [Service]
 Type=oneshot
+# Si faltan los ficheros de estado del bisync, hacer --resync automáticamente antes de sincronizar
+ExecStartPre=/bin/sh -c 'ls %h/.cache/rclone/bisync/gdrive_Obsidian..home_viktorlacharo_Obisidan.path1.lst >/dev/null 2>&1 || /usr/bin/rclone bisync --resync gdrive:Obsidian /home/viktorlacharo/Obisidan'
 ExecStart=/usr/bin/rclone bisync gdrive:Obsidian /home/viktorlacharo/Obisidan

@@ -1,0 +1,15 @@
+{
+    "username": "viktorlacharo",
+    "salt": "kql%uIDvybNbcO5q",
+    "password": "1772A8EB11ACA5D4575D6234F87E19694B1918A822EB20AFFCFDE679A54CAB35",
+    "root": {
+        "uniqueid": "A0F1C09B-A8CE-B12F-8087-B8C1D316E7BB",
+        "named_devices": [
+            {
+                "name": "Steam Deck",
+                "cert": "-----BEGIN CERTIFICATE-----\nMIICvzCCAaegAwIBAgIBADANBgkqhkiG9w0BAQsFADAjMSEwHwYDVQQDDBhOVklE\nSUEgR2FtZVN0cmVhbSBDbGllbnQwHhcNMjYwMzA2MjAzMjU1WhcNNDYwMzAxMjAz\nMjU1WjAjMSEwHwYDVQQDDBhOVklESUEgR2FtZVN0cmVhbSBDbGllbnQwggEiMA0G\nCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKWHIBn32uLf4ZD56KwMPiiBH6\/aB9\nsudzbP3YNbdLpSkOlXPFdsPuU3yZ\/vjGtcA4a\/gEHrNeZ2lXSvzgoCYGPFj9H73Z\nz3c4ZHYmEiYSkbsryzAA+lItchlGZkS7WUDtsUwr98qeOFWm2oOcFETfngxhkfv\/\nypZfVbDEY2BTP8GCNJtF+h5s6mpXE2B9aTb3qMBvbKWIwdz++x69079lbKS7Ejmv\nisP3O0jiMyL9JCqibmnMl9TTl3SNqBkOdRPYNY7FwZ5oZvSxwwEmRpPwcYnZvnxV\net29VB0ZF1RQk5\/1w10K1DvtRwgv23gXnqshPdyWDEjhkedB0hlbCk9XAgMBAAEw\nDQYJKoZIhvcNAQELBQADggEBAENOMS+i4vgtlbpUECqYbe8XHRStDwUSds+O8Wjq\nfy6PTEjFgUOLG8Z3vg2HUm9jkBXmsb0PsIk4ESBUdmv4s5M6BbiB57Ql0Itv53Zq\n2KHpGZ5NpPxjmEVUxKdMMyt4fc6MqF5yB\/xFcbvivfS5NSlarrVSM6DJNEFjTqnk\nrJJOvvuvrq1GG6C1Co5N3\/p+2MYZAGFwpQv6ckS2hz33rGYyF7sBaWeN5T4A+UUD\nwqOCvVuzyErE5vrVKO6cLAG53KUIfNbnMkyl5aZwEG6wOolafFkvwEMrKcd5drWb\njJrxqdn0kvEHG5EKSpXzKwVKZ9Ul0CaS4xBTnfU7fH4+dmw=\n-----END CERTIFICATE-----\n",
+                "uuid": "BA44DAF4-751F-7A07-4590-C890D521B0F6"
+            }
+        ]
+    }
+}

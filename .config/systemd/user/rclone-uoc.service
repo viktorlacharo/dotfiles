@@ -1,0 +1,10 @@
+[Unit]
+Description=Rclone bisync UOC college files with Google Drive
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+# Si faltan los ficheros de estado del bisync, hacer --resync automáticamente antes de sincronizar
+ExecStartPre=/bin/sh -c 'ls %h/.cache/rclone/bisync/gdrive_UOC..home_viktorlacharo_UOC_GoogleDrive.path1.lst >/dev/null 2>&1 || /usr/bin/rclone bisync --resync gdrive:UOC /home/viktorlacharo/UOC/GoogleDrive'
+ExecStart=/usr/bin/rclone bisync gdrive:UOC /home/viktorlacharo/UOC/GoogleDrive
